@@ -1,0 +1,92 @@
+{
+    type: liquidTurret
+    name: "Stream"
+    description: "-"
+    health: 500
+    size: 1
+    recoil: 0
+    reload: 1
+    range: 60
+    ammoUseEffect: shellEjectSmall
+    targetAir: false
+    inaccuracy: 1.0
+    shots: 1
+    rotatespeed: 6.0
+    ammo: {
+        water: {
+            speed: 1.0
+            lifetime: 100
+            type: LiquidBulletType
+            liquid: water
+            damage: 2
+            reloadMultiplier: 1.0
+            bulletWidht: 7
+            bulletHeight: 9
+           shootEffect: shootLiquid
+     smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 4
+            backColor: 004AFF
+            frontColor: 004AFF
+            status: wet
+        }
+        slag: {
+            speed: 1.0
+            lifetime: 100
+            damage: 5
+            type: LiquidBulletType
+            liquid: slag
+            reloadMultiplier: 1.0
+            bulletWidht: 5
+            bulletHeight: 9
+            shootEffect: shootLiquid
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 4
+            backColor: FFA200
+            frontColor: FFA200
+            status: burning
+        }
+        cryofluid: {
+            speed: 1.0
+            lifetime: 100
+            damage: 4
+            type: LiquidBulletType
+            liquid: cryofluid
+            reloadMultiplier: 1.0
+            bulletWidht: 5
+            bulletHeight: 9
+            shootEffect: shootLiquid
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 4
+            backColor: 00FFED
+            frontColor: 00FFED
+            status: freezing
+        }
+        oil: {
+            speed: 1.0
+            damage: 1
+            lifetime: 100
+            type: LiquidBulletType
+            liquid: oil
+            reloadMultiplier: 1.0
+            bulletWidht: 5
+            bulletHeight: 9
+            shootEffect: shootLiquid
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 4
+            status: tarred
+            backColor: 000000
+            frontColor: 000000
+        }
+    }
+    requirements: [
+        bronze/5
+        copper/25
+        metaglass/5
+    ]
+    category: turret
+    research: duo
+}

@@ -1,0 +1,56 @@
+{
+   name: "Star sniper"
+   description: "-"
+   type: ItemTurret
+   size: 4
+   health: 4500
+    recoil: 10
+    reload: 60
+    range: 1000
+    ammoUseEffect: shellEjectBig
+    inaccuracy: 0.0
+    chargeTime: 30
+    shots: 3
+    rotatespeed: 3.0
+    ammo: {
+        surge-alloy: {
+            speed: 100.0
+            lifetime: 10
+            damage: 1500
+            reloadMultiplier: 0.5
+            bulletWidht: 3
+            bulletHeight: 9
+           shootEffect: shootBig
+     smokeEffect: shootBigSmoke
+            
+            ammoMultiplier: 1
+            backColor: FFFFFF
+            frontColor: FFFFFF
+            status: burning
+        }
+        titanit: {
+            speed: 100.0
+            lifetime: 10
+            damage: 1000
+            reloadMultiplier: 0.5
+            bulletWidht: 3
+            bulletHeight: 9
+           shootEffect: shootBig
+     smokeEffect: shootBigSmoke
+            
+            ammoMultiplier: 1
+            backColor: FFFFFF
+            frontColor: FFFFFF
+            status: freezing
+        }
+    }
+    requirements: [
+       bronze/120
+       titanit/140
+	   lead/100
+       plastanium/120
+       crystal-of-cryofluid/30
+    ]
+    category: turret
+    research: turret-sniper
+}
