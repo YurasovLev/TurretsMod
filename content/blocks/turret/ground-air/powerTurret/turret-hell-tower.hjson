@@ -1,0 +1,27 @@
+{
+ type: LaserTurret
+ name: "Hell tower"
+ description: "-"
+ health: 9800
+ size: 4
+ recoil: 0
+ range: 250
+ reload: 1.0
+ shootType: meltdownLaser
+ powerUse: 200.0
+ inaccuracy: 0.0
+ rotatespeed: 3.0
+ shootCone: 5
+ bulidCostMultilier: 8.0
+ requirements: [
+  titanit/780
+  surge-alloy/110
+  metaglass/120
+  graphite/140
+  plastanium/375
+  thorium/130
+  silicon/100
+ ]
+ category: turret
+ research: tesla-turret
+}

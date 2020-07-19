@@ -1,0 +1,70 @@
+{
+ name: "Rose hip beta"
+ description: "-"
+ type: ItemTurret
+ size: 2
+ rotatespeed: 0.0
+ shootCone: 360
+ range: 120
+ health: 1000
+ recoil: 0
+ reload: 30
+ innacuraty: 90.0
+ ammoUseEffect: shellEjectBig
+ targetAir: false
+ shots: 100
+ ammo: {
+  titanit: {
+   speed: 3.0
+   lifetime: 40
+   damage: 70
+   reloadMultiplier: 1.0
+   bulletWeight: 3
+   bulletHeight: 5
+   shootEffect: shootBig
+   smokeEffect: shootBigSmoke
+
+   ammoMultiplier: 1
+   backColor: 2800FF
+   frontColor: 2800FF
+  }
+  bronze: {
+   speed: 3.0
+   lifetime: 40
+   damage: 45
+   reloadMultiplier: 1.0
+   bulletWidht: 3
+   bulletHeight: 5
+   shootEffect: shootBig
+   smokeEffect: shootBigSmoke
+            
+   ammoMultiplier: 1
+   backColor: FFA500
+   frontColor: FFA500
+        }
+  lead: {
+   speed: 3.0
+   lifetime: 40
+   damage: 40
+   reloadMultiplier: 1.0
+   shootEffect: shootBig
+   bulletWidht: 3
+   bulletHeight: 5
+   smokeEffect: shootBigSmoke
+   
+   ammoMultiplier: 1
+   backColor: 6857FF
+   frontColor: 6857FF
+  }
+ }
+ requirements: [
+  bronze/70
+  titanit/150
+  lead/55
+  silicon/55
+ ]
+ category: turret
+ research: turret-rose-hip-alpha
+}
+ 
+ 

@@ -1,0 +1,70 @@
+{
+ name: "Rocket launcher"
+ description: "-"
+ type: ArtilleryTurret
+ range: 400
+ recoil: 5
+ reload: 35
+ ammoUseEffect: shellEjectBig
+ size: 3
+ health: 1500
+ inaccuracy: 0
+ rotatespeed: 3
+ targetAir: true
+ ammo: {
+  titanit: {
+   speed: 2.0
+   damage: 100
+   lifetime: 200
+   reloadMultiplier: 1.0
+   shootEffect: shootBig
+   smokeEffect: shootBigSmoke
+   bulletWeight: 3
+   bulletHeight: 5
+   backColor: 3600FF
+   frontColor: 3600FF
+   ammoMultiplier: 2
+   splashDamageRadius: 15
+   splashDamage: 600
+  }
+  plastanium: {
+            speed: 4.0
+            damage: 100
+            lifetime: 100
+            reloadMultiplier: 0.1
+            bulletWidht: 7
+            bulletHeight: 9
+            shootEffect: shootBig
+   		 smokeEffect: shootBigSmoke
+            
+            ammoMultiplier: 1
+            backColor: 00FF55
+            frontColor: 00FF55
+            type: missileBulletType
+           }
+  surge-alloy: {
+            speed: 4.0
+            lifetime: 100
+            damage: 150
+            reloadMultiplier: 0.1
+            bulletWidht: 7
+            bulletHeight: 9
+            shootEffect: shootBig
+   		 smokeEffect: shootBigSmoke
+            
+            ammoMultiplier: 1
+            backColor: FFD800
+            frontColor: FFD800
+            type: missileBulletType
+            status: burning
+           }
+ }
+ requirements: [
+  titanit/130
+  plastanium/50
+  silicon/65
+  lead/70
+ ]
+ category: turret
+ research: large-bronze-turret
+}

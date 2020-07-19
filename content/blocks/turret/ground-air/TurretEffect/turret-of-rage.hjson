@@ -1,0 +1,61 @@
+name: "Turret of rage"
+description: "-"
+type: itemTurret
+health: 1000
+size: 2
+reload: 25
+range: 300
+recoil: 5.0
+inaccuracy: 1.0
+ammoUseEffect: shellEjectSmall
+itemCapacity: 10
+maxAmmo: 40
+rotatespeed: 8.0
+ammo: {
+    titanium: {
+        speed: 3.0
+        lifetime: 100
+        damage: 155
+        reloadMultiplier: 1.0
+        ammoMultiplier: 2.0
+        inaccuracy: 2.0
+        bulletWidth: 4
+        bulletHeight: 5
+        frontColor: 467EB2
+        backColor: 1E4C78
+        status: {
+            name: "rage"
+            speedMultiplier: 1.5
+            damageMultiplier: 1.5
+            armorMultiplier: 0.5
+            statusDuration: 80
+        }
+    }
+    bronze: {
+        speed: 5.0
+        lifetime: 60
+        damage: 130
+        reloadMultiplier: 1.5
+        ammoMultiplier: 4.0
+        inaccuracy: 4.0
+        bulletWidth: 4
+        bulletHeight: 5
+        frontColor: 
+        backColor: 
+        status: {
+            name: "rage2"
+            speedMultiplier: 1.5
+            damageMultiplier: 1.5
+            armorMultiplier: 0.5
+            statusDuration: 80
+        }
+    }
+        
+}
+requirements: [
+    titanium/50
+    bronze/60
+    graphite/35
+]
+category: turret
+research: bronze-turret

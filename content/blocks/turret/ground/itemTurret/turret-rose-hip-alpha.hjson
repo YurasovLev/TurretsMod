@@ -1,0 +1,55 @@
+{
+ name: "Rose hip alpha"
+ description: "-"
+ type: ItemTurret
+ size: 2
+ range: 70
+ health: 800
+ recoil: 0
+ reload: 40
+ inaccuraty: 360
+ ammoUseEffect: shellEjectSmall
+ targetAir: false
+ shots: 100
+ rotatespeed: 0
+ shootCone: 360
+ ammo: {
+  bronze: {
+   speed: 1.5
+   lifetime: 46
+   damage: 30
+   reloadMultiplier: 1.0
+   bulletWidht: 3
+   bulletHeight: 5
+   shootEffect: shootSmall
+   smokeEffect: shootSmallSmoke
+            
+   ammoMultiplier: 1
+   backColor: D99D73
+   frontColor: D99D73
+        }
+  lead: {
+   speed: 1.5
+   lifetime: 46
+   damage: 15
+   reloadMultiplier: 1.0
+   shootEffect: shootSmall
+   bulletWidht: 3
+   bulletHeight: 5
+   smokeEffect: shootSmallSmoke
+   
+   ammoMultiplier: 1
+   backColor: 6998D8
+   frontColor: 6998D8
+  }
+ }
+ requirements: [
+  bronze/90
+  copper/85
+  silicon/35
+ ]
+ category: turret
+ research: large-bronze-turret
+}
+ 
+ 

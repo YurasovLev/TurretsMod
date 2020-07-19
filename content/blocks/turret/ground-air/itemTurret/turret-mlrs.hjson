@@ -1,0 +1,58 @@
+{
+    type: ItemTurret
+    name: "Multiple launch rocket system"
+    description: "-"
+    health: 1400
+    size: 3
+    xRand: 0
+    recoil: 0
+    reload: 30
+    range: 400
+    shootCone: 10
+    ammoUseEffect: shellEjectBig
+    targetGround: true
+    inaccuracy: 0
+    shots: 5
+    rotatespeed: 5.0
+    ammo: {
+        titanit: {
+            lifetime: 130
+            speed: 3.0
+            damage: 150
+            reloadMultiplier: 1.0
+            bulletWidht: 7
+            bulletHeight: 9
+           shootEffect: shootBig
+     smokeEffect: shootBigSmoke
+            
+            ammoMultiplier: 1
+            backColor: 817FE3
+            frontColor: 817FE3
+        }
+        surge-alloy: {
+            lifetime: 130
+            speed: 3.0
+            damage: 150
+            reloadMultiplier: 1.0
+            bulletWidht: 7
+            bulletHeight: 9
+           shootEffect: shootBig
+     smokeEffect: shootBigSmoke
+            
+            ammoMultiplier: 1
+            backColor: CAB14E
+            frontColor: CAB14E
+            type: missileBulletType
+            status: burning
+           }
+    }
+    requirements: [
+       bronze/70
+       titanit/85
+       copper/120
+	   lead/50
+       silicon/35
+    ]
+    category: turret
+    research: rocket-launcher
+}

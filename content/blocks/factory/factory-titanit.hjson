@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: "Factory titanit"
+description: "-"
+outputItem: titanit/1
+size: 2
+hasPower: true
+hasItem: true
+craftTime: 120
+health: 300
+updateEffect: smeltsmoke
+consumes: {
+ power: 4.0
+ items: {
+  items: [
+   lead/1
+   titanium/2
+  ]
+ }
+}
+requirements: [
+ lead/40
+ copper/40
+ bronze/35
+ graphite/35
+ titanium/40
+],
+category: crafting
+research: factory-bronze
+idleSound: respawning
+idleSoundVolume: 0.5
