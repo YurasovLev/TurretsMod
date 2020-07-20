@@ -6,7 +6,7 @@
    health: 4500
     recoil: 10
     reload: 60
-    range: 1000
+    range: 550
     ammoUseEffect: shellEjectBig
     inaccuracy: 0.0
     chargeTime: 30
@@ -16,7 +16,7 @@
         surge-alloy: {
             speed: 100.0
             lifetime: 10
-            damage: 1500
+            damage: 1000
             reloadMultiplier: 0.5
             bulletWidht: 3
             bulletHeight: 9
@@ -31,7 +31,7 @@
         titanit: {
             speed: 100.0
             lifetime: 10
-            damage: 1000
+            damage: 500
             reloadMultiplier: 0.5
             bulletWidht: 3
             bulletHeight: 9
