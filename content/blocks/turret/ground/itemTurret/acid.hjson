@@ -9,7 +9,7 @@
     range: 200
     ammoUseEffect: shellEjectBig
     targetAir: false
-    inaccuracy: 8.0
+    inaccuracy: 3.0
     shots: 1
     rotatespeed: 2.0
     ammo: {
