@@ -25,8 +25,13 @@
    smokeEffect: shootBigSmoke
 
    ammoMultiplier: 1
+<<<<<<< HEAD
    backColor: 2800FF
    frontColor: 2800FF
+=======
+   backColor: 2A5C60
+   frontColor: 276468
+>>>>>>> 138d920... first commit
   }
   bronze: {
    speed: 3.0
@@ -39,8 +44,13 @@
    smokeEffect: shootBigSmoke
             
    ammoMultiplier: 1
+<<<<<<< HEAD
    backColor: FFA500
    frontColor: FFA500
+=======
+   backColor: AF8A69
+   frontColor: ffdab9
+>>>>>>> 138d920... first commit
         }
   lead: {
    speed: 3.0

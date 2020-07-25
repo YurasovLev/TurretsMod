@@ -22,12 +22,21 @@
             reloadMultiplier: 1.0
             bulletWidht: 7
             bulletHeight: 9
+<<<<<<< HEAD
            shootEffect: shootBig
      smokeEffect: shootBigSmoke
             
             ammoMultiplier: 1
             backColor: 817FE3
             frontColor: 817FE3
+=======
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            type: missileBulletType
+            ammoMultiplier: 1
+            backColor: 817FE3
+            frontColor: 276468
+>>>>>>> 138d920... first commit
         }
         surge-alloy: {
             lifetime: 130

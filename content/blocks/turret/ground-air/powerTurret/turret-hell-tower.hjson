@@ -21,7 +21,14 @@
   plastanium/375
   thorium/130
   silicon/100
+<<<<<<< HEAD
  ]
  category: turret
  research: tesla-turret
+=======
+  crystal-of-cryofluid/60
+ ]
+ category: turret
+ research: turret-laser
+>>>>>>> 138d920... first commit
 }

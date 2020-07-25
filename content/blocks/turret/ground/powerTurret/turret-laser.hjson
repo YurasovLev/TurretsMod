@@ -18,11 +18,19 @@
  status: shocked
  chargeEffects: 50.0
  requirements: [
+<<<<<<< HEAD
   titanit/55
   bronze/70
   metaglass/30
   graphite/45
   plastanium/10
+=======
+  bronze/140
+  metaglass/60
+  graphite/60
+  plastanium/20
+  crystal-of-cryofluid/10
+>>>>>>> 138d920... first commit
  ]
  category: turret
  research: large-bronze-turret

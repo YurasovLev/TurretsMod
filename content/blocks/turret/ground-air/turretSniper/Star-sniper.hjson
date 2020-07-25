@@ -6,7 +6,11 @@
    health: 4500
     recoil: 10
     reload: 60
+<<<<<<< HEAD
     range: 1000
+=======
+    range: 550
+>>>>>>> 138d920... first commit
     ammoUseEffect: shellEjectBig
     inaccuracy: 0.0
     chargeTime: 30
@@ -16,7 +20,11 @@
         surge-alloy: {
             speed: 100.0
             lifetime: 10
+<<<<<<< HEAD
             damage: 1500
+=======
+            damage: 1000
+>>>>>>> 138d920... first commit
             reloadMultiplier: 0.5
             bulletWidht: 3
             bulletHeight: 9
@@ -31,7 +39,11 @@
         titanit: {
             speed: 100.0
             lifetime: 10
+<<<<<<< HEAD
             damage: 1000
+=======
+            damage: 500
+>>>>>>> 138d920... first commit
             reloadMultiplier: 0.5
             bulletWidht: 3
             bulletHeight: 9
@@ -49,6 +61,10 @@
        titanit/140
 	   lead/100
        plastanium/120
+<<<<<<< HEAD
+=======
+       crystal-of-cryofluid/30
+>>>>>>> 138d920... first commit
     ]
     category: turret
     research: turret-sniper

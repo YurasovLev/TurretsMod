@@ -21,8 +21,13 @@ ammo: {
         inaccuracy: 2.0
         bulletWidth: 4
         bulletHeight: 5
+<<<<<<< HEAD
         frontColor: 467EB2
         backColor: 1E4C78
+=======
+        frontColor: 276468
+        backColor: 2A5C60
+>>>>>>> 138d920... first commit
         status: {
             name: "rage"
             speedMultiplier: 1.5
@@ -40,8 +45,13 @@ ammo: {
         inaccuracy: 4.0
         bulletWidth: 4
         bulletHeight: 5
+<<<<<<< HEAD
         frontColor: 
         backColor: 
+=======
+        frontColor: ffdab9
+        backColor: AF8A69
+>>>>>>> 138d920... first commit
         status: {
             name: "rage2"
             speedMultiplier: 1.5
@@ -58,4 +68,8 @@ requirements: [
     graphite/35
 ]
 category: turret
+<<<<<<< HEAD
 research: bronze-turret
+=======
+research: cudo
+>>>>>>> 138d920... first commit

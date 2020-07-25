@@ -22,8 +22,13 @@
      smokeEffect: shootBigSmoke
             
             ammoMultiplier: 2
+<<<<<<< HEAD
             backColor: FF8600
             frontColor: FF8600
+=======
+            backColor: AF8A69
+            frontColor: ffdab9
+>>>>>>> 138d920... first commit
         }
         copper: {
             speed: 6.0
@@ -46,5 +51,9 @@
 	   lead/60
     ]
     category: turret
+<<<<<<< HEAD
     research: cudo
+=======
+    research: bronze-turret
+>>>>>>> 138d920... first commit
 }

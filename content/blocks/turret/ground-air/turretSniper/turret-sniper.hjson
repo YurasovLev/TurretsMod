@@ -20,12 +20,21 @@
             reloadMultiplier: 0.5
             bulletWidht: 3
             bulletHeight: 9
+<<<<<<< HEAD
            shootEffect: shootSmall
      smokeEffect: shootSmallSmoke
             
             ammoMultiplier: 1
             backColor: FFA800
             frontColor: FFA800
+=======
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 1
+            backColor: AF8A69
+            frontColor: ffdab9
+>>>>>>> 138d920... first commit
         }
         titanit: {
             speed: 50.0
@@ -34,12 +43,21 @@
             reloadMultiplier: 0.5
             bulletWidht: 3
             bulletHeight: 9
+<<<<<<< HEAD
            shootEffect: shootSmall
      smokeEffect: shootSmallSmoke
             
             ammoMultiplier: 1
             backColor: 3500FF
             frontColor: 3500FF
+=======
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 1
+            backColor: 2A5C60
+            frontColor: 276468
+>>>>>>> 138d920... first commit
         }
     }
     requirements: [

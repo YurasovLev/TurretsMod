@@ -24,8 +24,13 @@
   		  smokeEffect: shootBigSmoke
             
             ammoMultiplier: 1
+<<<<<<< HEAD
             backColor: 3300FF
             frontColor: 3300FF
+=======
+            backColor: 2A5C60
+            frontColor: 276468
+>>>>>>> 138d920... first commit
             status: {
   			name: Armor penetration
 			  damageMultiplier: 1.0

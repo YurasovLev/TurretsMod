@@ -20,12 +20,21 @@
             reloadMultiplier: 0.1
             bulletWidht: 7
             bulletHeight: 9
+<<<<<<< HEAD
            shootEffect: shootSmall
      smokeEffect: shootSmallSmoke
             
             ammoMultiplier: 1
             backColor: FFB000
             frontColor: FFB000
+=======
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 1
+            backColor: AF8A69
+            frontColor: ffdab9
+>>>>>>> 138d920... first commit
         }
         copper: {
             speed: 10.0

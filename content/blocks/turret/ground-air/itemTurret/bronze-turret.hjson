@@ -18,12 +18,21 @@
             reloadMultiplier: 1.0
             bulletWidht: 7
             bulletHeight: 9
+<<<<<<< HEAD
            shootEffect: shootSmall
      smokeEffect: shootSmallSmoke
             
             ammoMultiplier: 2
             backColor: FF9A00
             frontColor: FF9A00
+=======
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 2
+            backColor: AF8A69
+            frontColor: ffdab9
+>>>>>>> 138d920... first commit
         }
         copper: {
             speed: 2.0
@@ -46,5 +55,9 @@
 	   lead/25
     ]
     category: turret
+<<<<<<< HEAD
     research: duo
+=======
+    research: stream
+>>>>>>> 138d920... first commit
 }

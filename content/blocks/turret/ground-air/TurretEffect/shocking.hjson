@@ -24,13 +24,22 @@
             smokeEffect: shootSmallSmoke
             
             ammoMultiplier: 1
+<<<<<<< HEAD
             backColor: 2F00FF
             frontColor: 2F00FF
+=======
+            backColor: 2A5C60
+            frontColor: 276468
+>>>>>>> 138d920... first commit
             status: {
              name: "shoc"
              speedMultiplier: 0.000000001
              damageMultiplier: 1.0
 			 armorMultiplier: 0.9
+<<<<<<< HEAD
+=======
+			 effect: lightningShoot
+>>>>>>> 138d920... first commit
             }
             statusDuration: 9999.0
         }
@@ -52,6 +61,10 @@
              speedMultiplier: 0.000000001
              damageMultiplier: 1.0
 			 armorMultiplier: 0.9
+<<<<<<< HEAD
+=======
+			 effect: lightningShoot
+>>>>>>> 138d920... first commit
             }
             statusDuration: 9999.0
         }

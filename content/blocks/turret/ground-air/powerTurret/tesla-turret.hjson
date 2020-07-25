@@ -20,11 +20,19 @@
  rotatespeed: 2.0
  chargeEffects: 0.0
  requirements: [
+<<<<<<< HEAD
   titanit/55
   bronze/70
   metaglass/30
   graphite/45
   plastanium/10
+=======
+  titanit/120
+  bronze/230
+  metaglass/45
+  graphite/70
+  plastanium/20
+>>>>>>> 138d920... first commit
  ]
  category: turret
  research: turret-laser

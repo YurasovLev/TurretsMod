@@ -5,7 +5,11 @@
     health: 2500
     size: 4
     recoil: 5
+<<<<<<< HEAD
     reload: 130
+=======
+    reload: 120
+>>>>>>> 138d920... first commit
     range: 800
     ammoUseEffect: shellEjectBig
     targetAir: false
@@ -19,17 +23,45 @@
             damage: 1000
             type: ArtilleryBulletType
             reloadMultiplier: 1.0
+<<<<<<< HEAD
             bulletWeight: 10
+=======
+            bulletWidht: 10
+>>>>>>> 138d920... first commit
             bulletHeight: 10
             shootEffect: shootBig
             smokeEffect: shootBigSmoke
             
             ammoMultiplier: 1
+<<<<<<< HEAD
             backColor: d99d73
             frontColor: d99d73
             splashDamageRadius: 50
             splashDamage: 600
         }
+=======
+            backColor: 2A5C60
+            frontColor: 276468
+            splashDamageRadius: 50
+            splashDamage: 600
+        }
+        thorium: {
+	        speed: 5.0
+			lifetime: 160
+			damage: 980
+			type: ArtilleryBulletType
+			reloadMultiplier: 1.0
+			bulletWidth: 10
+			bulletHeight: 10
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			ammoMultiplier: 1
+			frontColor: "C73BA0"
+			backColor: "8F2271"
+			splashDamageRadius: 50
+			splashDamage: 800
+		}
+>>>>>>> 138d920... first commit
     }
     requirements: [
        bronze/70

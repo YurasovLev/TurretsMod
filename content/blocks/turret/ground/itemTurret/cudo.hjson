@@ -29,6 +29,23 @@ ammo: {
         frontColor: 5E85AE
         backColor: 00244A
     }
+<<<<<<< HEAD
+=======
+    bronze: {
+    	speed: 4.5
+	    damage: 15
+		reloadMultiplier: 1.0
+		ammoMultiplier: 4.0
+		lifeTime: 66
+		inaccuracy: 5
+		recoil: 1.0
+		knockback: 300
+		bulletWidth: 4
+		bulletHeight: 5
+		frontColor: ffdab9
+		backColor: AF8A69
+	}
+>>>>>>> 138d920... first commit
 }
 requirements: [
     titanium/40
@@ -37,4 +54,8 @@ requirements: [
     graphite/20
 ]
 category: turret
+<<<<<<< HEAD
 research: bronze-turret
+=======
+research: stream
+>>>>>>> 138d920... first commit

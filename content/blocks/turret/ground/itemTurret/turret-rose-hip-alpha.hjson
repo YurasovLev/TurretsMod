@@ -25,8 +25,13 @@
    smokeEffect: shootSmallSmoke
             
    ammoMultiplier: 1
+<<<<<<< HEAD
    backColor: D99D73
    frontColor: D99D73
+=======
+   backColor: AF8A69
+   frontColor: ffdab9
+>>>>>>> 138d920... first commit
         }
   lead: {
    speed: 1.5
@@ -49,7 +54,11 @@
   silicon/35
  ]
  category: turret
+<<<<<<< HEAD
  research: large-bronze-turret
+=======
+ research: bronze-turret
+>>>>>>> 138d920... first commit
 }
  
  
