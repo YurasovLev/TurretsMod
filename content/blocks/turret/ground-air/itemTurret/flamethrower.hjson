@@ -1,5 +1,5 @@
 {
-    type: ItemTurret
+    type: itemTurret
     name: "Flamethrower"
     description: "-"
     health: 2000
