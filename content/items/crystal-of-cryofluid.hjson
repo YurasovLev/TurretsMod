@@ -1,0 +1,7 @@
+{
+ name: "Crystal Of Cryofluid"
+ description: "-"
+ type: material
+ color: 47EDEF
+ tier: 2
+}

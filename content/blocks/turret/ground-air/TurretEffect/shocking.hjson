@@ -1,0 +1,69 @@
+{
+  name: "Shocking"
+   description: "-"
+   type: ItemTurret
+   size: 3
+   health: 1500
+    recoil: 10
+    reload: 35
+    range: 280
+    ammoUseEffect: shellEjectSmall
+    inaccuracy: 0.0
+    chargeTime: 30
+    shots: 1
+    rotatespeed: 9.0
+    ammo: {
+        titanit: {
+            speed: 50.0
+            damage: 5
+            lifetime: 5
+            reloadMultiplier: 0.5
+            bulletWidht: 3
+            bulletHeight: 9
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 1
+            backColor: 2A5C60
+            frontColor: 276468
+            status: {
+             name: "shoc"
+             speedMultiplier: 0.000000001
+             damageMultiplier: 1.0
+			 armorMultiplier: 0.9
+			 effect: lightningShoot
+            }
+            statusDuration: 9999.0
+        }
+        plastanium: {
+            speed: 50.0
+            damage: 10
+            lifetime: 5
+            reloadMultiplier: 0.5
+            bulletWidht: 3
+            bulletHeight: 9
+           shootEffect: shootSmall
+     smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 1
+            backColor: 80FF00
+            frontColor: 80FF00
+            status: {
+             name: "shoc2"
+             speedMultiplier: 0.000000001
+             damageMultiplier: 1.0
+			 armorMultiplier: 0.9
+			 effect: lightningShoot
+            }
+            statusDuration: 9999.0
+        }
+    }
+    requirements: [
+       bronze/50
+       titanit/120
+	   lead/40
+       plastanium/60
+    ]
+    category: turret
+    research: turret-laser
+}
