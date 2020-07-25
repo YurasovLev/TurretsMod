@@ -1,15 +1,5 @@
-<<<<<<< HEAD
-
-name: turretsmod
-displayName: [white]Turrets Mod
-description: Мод добавляет множество новых турелей.
-author: [#9D9D9D]lev43
-version: 2.0
-
-=======
 name: "turretsmod"
 displayName: "[white]Turrets Mod"
 description: "Мод добавляет множество новых турелей."
 author: "[#9D9D9D]lev43"
 version: 2.0
->>>>>>> e091635... &$&
