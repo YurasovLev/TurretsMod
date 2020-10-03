@@ -1,6 +1,6 @@
 {
     type: ItemTurret
-    name: "Multiple launch rocket system"
+    name: "Volley"
     description: "-"
     health: 1400
     size: 3
@@ -55,5 +55,5 @@
        silicon/35
     ]
     category: turret
-    research: rocket-launcher
+    research: dragon
 }

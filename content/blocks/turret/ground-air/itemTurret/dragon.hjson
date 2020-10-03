@@ -1,5 +1,5 @@
 {
-	name: "Rocket launcher"
+	name: "Dragon"
 	description: "-"
 	type: ArtilleryTurret
 	range: 400

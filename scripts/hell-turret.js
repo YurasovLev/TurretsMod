@@ -51,5 +51,5 @@ laser.speed = 0.1;
 laser.damage = 220.0;
 laser.pierce = true;
 
-const hellTurret  = extendContent(LaserTurret, "turret-hell-tower", {});
+const hellTurret  = extendContent(LaserTurret, "hell-turret", {});
 hellTurret.shootType=laser;

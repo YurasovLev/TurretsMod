@@ -84,5 +84,5 @@
 	coolantMultiplier: 0.0
 	buildCostMultiplier: 2
 	category: turret
-	research: turret-rose-hip-beta
+	research: rose-hip-beta
 }

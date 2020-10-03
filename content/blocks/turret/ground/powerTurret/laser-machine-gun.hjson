@@ -25,5 +25,5 @@
  ]
  coolantMultiplier: 0.7
  category: turret
- research: turret-laser
+ research: laser-turret
 }

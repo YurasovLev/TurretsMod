@@ -15,7 +15,7 @@ requirements: [
   }
   {
     type: Unlock
-    block: turret-laser
+    block: laser-turret
   }
 ]
 resources: [

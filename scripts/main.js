@@ -5,8 +5,8 @@ var scripts=[
 	"hell-turret",
 	"bastion",
 	"calm",
-	"turret-rose-hip-alpha",
-	"turret-rose-hip-beta",
+	"rose-hip-alpha",
+	"rose-hip-beta",
 	"veil",
 	"star"
 ];
