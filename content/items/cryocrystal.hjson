@@ -1,6 +1,6 @@
 {
- name: "Bronze"
+ name: "Cryocrystal"
  description: "---"
  type: material
- color: ffdab9
+ color: 47EDEF
 }

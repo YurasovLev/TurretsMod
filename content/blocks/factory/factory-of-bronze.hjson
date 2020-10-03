@@ -1,6 +1,6 @@
 {
 type: GenericSmelter
-name: "Factory bronze"
+name: "Factory of bronze"
 description: "-"
 outputItem: bronze/2
 size: 2
@@ -9,6 +9,7 @@ craftTime: 60
 health: 300
 updateEffect: smeltsmoke
 consumes: {
+ power: 0.5
  items: {
   items: [
    lead/1

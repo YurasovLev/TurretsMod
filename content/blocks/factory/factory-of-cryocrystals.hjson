@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: "Factory Of Crystals Of Cryofluid"
+name: "Factory of cryocrystals"
 description: "-"
 craftTime: 600.0
 health: 1000
@@ -7,7 +7,7 @@ size: 2
 hasLiquids: true
 hasPower: true
 liquidCapacity: 60
-outputItem: crystal-of-cryofluid/3
+outputItem: cryocrystal/3
 consumes: {
     power: 0.5
     liquid: cryofluid/0.1183333333
@@ -20,4 +20,4 @@ requirements: [
     silicon/50
 ]
 category: crafting
-research: factory-bronze
+research: factory-of-bronze

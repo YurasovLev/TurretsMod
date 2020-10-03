@@ -1,5 +1,5 @@
 type: GenericSmelter
-name: "Factory titanit"
+name: "Factory of titanit"
 description: "-"
 outputItem: titanit/1
 size: 2
@@ -24,6 +24,6 @@ requirements: [
  titanium/40
 ],
 category: crafting
-research: factory-bronze
+research: factory-of-bronze
 idleSound: respawning
 idleSoundVolume: 0.5
