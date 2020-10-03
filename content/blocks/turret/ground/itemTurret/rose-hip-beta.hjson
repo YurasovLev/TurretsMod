@@ -1,6 +1,4 @@
 {
- name: "Rose hip beta"
- description: "-"
  size: 2
  rotatespeed: 0.0
  shootCone: 360

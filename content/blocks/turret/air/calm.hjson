@@ -1,6 +1,4 @@
 {
- name: "Calm"
- description: "-"
  size: 3
  rotatespeed: 0.0
  shootCone: 360

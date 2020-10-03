@@ -1,6 +1,4 @@
 {
-	name: "Hurricane"
-	description: "-"
 	health: 4600
 	recoil: 0
 	reload: 20

@@ -1,6 +1,4 @@
 {
-	name: "Star"
-	description: "-"
 	health: 4600
 	size: 6
 	recoil: 0

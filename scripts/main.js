@@ -1,6 +1,5 @@
 Log.info('start main [TurretsMod]');
 var scripts=[
-	"supernova",
 	"hurricane",
 	"hell-turret",
 	"bastion",

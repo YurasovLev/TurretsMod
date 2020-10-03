@@ -1,6 +1,4 @@
 {
-	name: "Bastion"
-	description: "-"
 	size: 4
 	rotatespeed: 0.0
 	shootCone: 360
