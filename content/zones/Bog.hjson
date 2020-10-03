@@ -19,7 +19,7 @@ requirements: [
   }
   {
     type: Unlock
-    block: factory-bronze
+    block: factory-of-bronze
   }
 ]
 resources: [

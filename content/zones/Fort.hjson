@@ -19,7 +19,7 @@ requirements: [
   }
   {
     type: Unlock
-    block: factory-titanit
+    block: factory-of-titanit
   }
 ]
 resources: [
