@@ -37,7 +37,7 @@ requirements: [
 	bronze/540
 	copper/630
 	lead/570
-	crystal-of-cryofluid/15
+	cryocrystal/15
 ]
 category: turret
 research: large-bronze-turret

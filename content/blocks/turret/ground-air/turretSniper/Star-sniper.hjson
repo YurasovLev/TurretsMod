@@ -49,7 +49,7 @@
 		titanit/140
 		lead/100
 		plastanium/120
-		crystal-of-cryofluid/30
+		cryocrystal/30
 	]
 	category: turret
 	research: turret-sniper

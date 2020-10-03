@@ -55,7 +55,7 @@
        copper/400
 	   lead/320
        metaglass/30
-       crystal-of-cryofluid/15
+       cryocrystal/15
     ]
     category: turret
     research: turret-storm

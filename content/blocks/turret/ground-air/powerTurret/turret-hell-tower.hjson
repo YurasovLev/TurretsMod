@@ -21,7 +21,7 @@
 		plastanium/375
 		thorium/130
 		silicon/100
-		crystal-of-cryofluid/60
+		cryocrystal/60
 	]
 	category: turret
 	research: turret-laser

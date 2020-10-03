@@ -21,7 +21,7 @@
   metaglass/70
   graphite/480
   plastanium/250
-  crystal-of-cryofluid/50
+  cryocrystal/50
  ]
  coolantMultiplier: 0.7
  category: turret
