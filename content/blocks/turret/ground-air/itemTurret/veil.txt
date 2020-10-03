@@ -1,0 +1,57 @@
+{
+	name: "Veil"
+	description: "-"
+	size: 3
+	rotatespeed: 0.0
+	shootCone: 360
+	range: 120
+	health: 1000
+	recoil: 0
+	reload: 6.0
+	inaccuracy: 0.0
+	ammoUseEffect: shellEjectBig
+	spread: 90
+	shots: 4
+	maxAmmo: 100
+	ammo: {
+		spore-pod: {
+			speed: 10.0
+			lifetime: 600
+			damage: 15
+			reloadMultiplier: 1.0
+			shootEffect: none
+			bulletWidth: 5
+			bulletHeight: 5
+			smokeEffect: none
+			collidesTiles: false
+			drag: 0.1
+			ammoMultiplier: 10
+			backColor: 8000BF
+			frontColor: AB00FF
+		}
+		sand: {
+			speed: 10.0
+			lifetime: 600
+			damage: 5
+			reloadMultiplier: 10.0
+			shootEffect: none
+			bulletWidth: 5
+			bulletHeight: 5
+			smokeEffect: none
+			collidesTiles: false
+			drag: 0.1
+			ammoMultiplier: 20
+			backColor: B09113
+			frontColor: E1B918
+		}
+	}
+	requirements: [
+		bronze/70
+		titanit/150
+		lead/55
+		silicon/55
+	]
+	coolantMultiplier: 0.7
+	category: turret
+	research: turret-rose-hip-alpha
+}

@@ -1,0 +1,72 @@
+{
+	name: "Hurricane"
+	description: "-"
+	health: 4600
+	recoil: 0
+	reload: 20
+	range: 300
+	spread: 90
+	inaccuracy: 0
+	shots: 4
+	shootEffect: none
+	shootCone: 360
+	ammo: {
+		titanium: {
+			speed: 1.0
+			damage: 120
+			lifetime: 300
+			reloadMultiplier: 1.0
+			bulletWidth: 9
+			bulletHeight: 9
+			shootEffect: none
+			smokeEffect: none
+			ammoMultiplier: 1
+			backColor: BFE8F4
+			frontColor: 99CAD8
+			fragBullets: 2
+			fragBullet: {
+				speed: 0.5
+				damage: 60
+				lifetime: 30
+				bulletWidth: 4
+				bulletHeight: 4
+				
+				backColor: BFE8F4
+				frontColor: 99CAD8
+			}
+		}
+		titanit: {
+			speed: 0.5
+			damage: 230
+			lifetime: 600
+			reloadMultiplier: 1.0
+			bulletWidth: 9
+			bulletHeight: 9
+			shootEffect: none
+			smokeEffect: none
+			ammoMultiplier: 2
+			backColor: 2A5C60
+			frontColor: 276468
+			fragBullets: 2
+			fragBullet: {
+				speed: 0.5
+				damage: 60
+				lifetime: 30
+				bulletWidth: 4
+				bulletHeight: 4
+				
+				backColor: 2A5C60
+				frontColor: 276468
+			}
+		}
+	}
+	coolantMultiplier: 0.9
+	requirements: [
+		titanit/330
+		bronze/550
+		plastanium/125
+		silicon/50
+	]
+	category: turret
+	research: turret-rose-hip-beta
+}

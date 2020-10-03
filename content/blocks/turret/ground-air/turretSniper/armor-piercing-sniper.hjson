@@ -1,65 +1,67 @@
 {
-  name: "Armor-piercing sniper"
-   description: "-"
-   type: ItemTurret
-   size: 3
-   health: 1600
-    recoil: 15
-    reload: 40
-    range: 500
-    ammoUseEffect: shellEjectBig
-    inaccuracy: 0.0
-    chargeTime: 35
-    shots: 1
-    rotatespeed: 2.0
-    ammo: {
-        titanit: {
-            speed: 100.0
-            lifetime: 5
-            damage: 500
-            reloadMultiplier: 0.5
-            bulletWidht: 3
-            bulletHeight: 9
-            shootEffect: shootBig
-  		  smokeEffect: shootBigSmoke
-            
-            ammoMultiplier: 1
-            backColor: 2A5C60
-            frontColor: 276468
-            status: {
-  			name: Armor penetration
-			  damageMultiplier: 1.0
-  			armorMultiplier: 0.001
- 			 speedMultiplier: 1.0}
-            statusDuration: 999999.0
-        }
-        plastanium: {
-            speed: 100.0
-            lifetime: 5
-            damage: 1000
-            reloadMultiplier: 1.0
-            bulletWidht: 3
-            bulletHeight: 9
-            shootEffect: shootBig
-   		 smokeEffect: shootBigSmoke
-            
-            ammoMultiplier: 1
-            backColor: 00FF65
-            frontColor: 00FF65
-            status: {
- 			 name: Armor penetration2
- 			 damageMultiplier: 1.0
- 			 armorMultiplier: 0.001
-			  speedMultiplier: 1.0}
+	name: "Armor-piercing sniper"
+	description: "-"
+	type: ItemTurret
+	size: 3
+	health: 1600
+	recoil: 15
+	reload: 40
+	range: 500
+	ammoUseEffect: shellEjectBig
+	inaccuracy: 0.0
+	shots: 1
+	rotatespeed: 0.3
+	ammo: {
+		titanit: {
+			speed: 100.0
+			lifetime: 5
+			damage: 500
+			reloadMultiplier: 0.5
+			bulletWidth: 3
+			bulletHeight: 9
+			shootEffect: shootBig
+				smokeEffect: shootBigSmoke
+			
+			ammoMultiplier: 1
+			backColor: 2A5C60
+			frontColor: 276468
+			status: {
+				name: "Armor penetration"
+				damageMultiplier: 1.0
+				armorMultiplier: 0.001
+ 				speedMultiplier: 1.0
+			}
 			statusDuration: 999999.0
-        }
-    }
-    requirements: [
-       bronze/70
-       titanit/130
-	   lead/35
-       plastanium/70
-    ]
-    category: turret
-    research: turret-sniper
+		}
+		plastanium: {
+			speed: 100.0
+			lifetime: 5
+			damage: 1000
+			reloadMultiplier: 1.0
+			bulletWidth: 3
+			bulletHeight: 9
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			
+			ammoMultiplier: 1
+			backColor: 00FF65
+			frontColor: 00FF65
+			status: {
+ 				name: "Armor penetration2"
+ 				damageMultiplier: 1.0
+ 				armorMultiplier: 0.001
+				speedMultiplier: 1.0
+			}
+			statusDuration: 999999.0
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+		bronze/70
+		titanit/130
+		lead/35
+		plastanium/70
+	]
+	category: turret
+	research: turret-sniper
 }

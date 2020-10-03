@@ -18,7 +18,7 @@
             lifetime: 33
             damage: 25
             reloadMultiplier: 0.1
-            bulletWidht: 7
+            bulletWidth: 7
             bulletHeight: 9
             shootEffect: shootSmall
             smokeEffect: shootSmallSmoke
@@ -32,7 +32,7 @@
             lifetime: 20
             damage: 10
             reloadMultiplier: 1.0
-            bulletWidht: 5
+            bulletWidth: 5
             bulletHeight: 9
            shootEffect: shootSmall
      smokeEffect: shootSmallSmoke
@@ -42,6 +42,7 @@
             frontColor: FFD900
         }
     }
+    coolantMultiplier: 0.7
     requirements: [
        bronze/80
        copper/120

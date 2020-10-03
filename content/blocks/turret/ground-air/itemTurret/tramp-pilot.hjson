@@ -13,10 +13,10 @@
     ammo: {
         bronze: {
             speed: 5.0
-            damage: 30
+            damage: 50
             lifetime: 30
             reloadMultiplier: 1.0
-            bulletWidht: 7
+            bulletWidth: 7
             bulletHeight: 9
             shootEffect: shootSmall
             smokeEffect: shootSmallSmoke
@@ -30,7 +30,7 @@
             damage: 20
             lifetime: 30
             reloadMultiplier: 1.5
-            bulletWidht: 5
+            bulletWidth: 5
             bulletHeight: 9
             shootEffect: shootSmall
             smokeEffect: shootSmallSmoke
@@ -40,6 +40,7 @@
             frontColor: FFBE00
         }
     }
+    coolantMultiplier: 0.7
     requirements: [
        bronze/20
        copper/40

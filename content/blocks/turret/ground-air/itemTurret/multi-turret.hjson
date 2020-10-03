@@ -82,7 +82,6 @@ ammo: {
             speed: 2.0
             lifetime: 60
         }
-        fragBulletRadius: 10
         reloadMultiplier: 1.0
         ammoMultiplier: 1
         recoil: 4.0
@@ -101,7 +100,7 @@ ammo: {
             speed: 4.0
             damage: 40
             reloadMultiplier: 4.0
-            bulletWidht: 0
+            bulletWidth: 0
             bulletHeight: 10
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
@@ -112,6 +111,7 @@ ammo: {
             status: burning
         }
 }
+coolantMultiplier: 0.7
 requirements: [
     bronze/40
     copper/65

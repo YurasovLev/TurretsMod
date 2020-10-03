@@ -4,7 +4,6 @@ description: "-"
 outputItem: titanit/1
 size: 2
 hasPower: true
-hasItem: true
 craftTime: 120
 health: 300
 updateEffect: smeltsmoke

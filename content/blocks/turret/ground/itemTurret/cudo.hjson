@@ -15,9 +15,9 @@ inaccuracy: 15
 itemCapacity: 30
 maxAmmo: 30
 ammo: {
-    titanium: {
+    titanit: {
         speed: 4.5
-        damage: 20
+        damage: 45
         reloadMultiplier: 0.8
         ammoMultiplier: 3.0
         lifetime: 66
@@ -26,15 +26,15 @@ ammo: {
         knockback: 300
         bulletWidth: 4
         bulletHeight: 5
-        frontColor: 5E85AE
-        backColor: 00244A
+        frontColor: 276468
+        backColor: 2A5C60
     }
     bronze: {
     	speed: 4.5
 	    damage: 15
 		reloadMultiplier: 1.0
 		ammoMultiplier: 4.0
-		lifeTime: 66
+		lifetime: 66
 		inaccuracy: 5
 		recoil: 1.0
 		knockback: 300
@@ -44,6 +44,7 @@ ammo: {
 		backColor: AF8A69
 	}
 }
+coolantMultiplier: 0.7
 requirements: [
     titanium/40
     bronze/50

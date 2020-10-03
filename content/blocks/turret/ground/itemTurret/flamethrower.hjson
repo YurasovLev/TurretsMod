@@ -21,7 +21,7 @@
             speed: 2.0
             damage: 5
             reloadMultiplier: 1.0
-            bulletWidht: 0
+            bulletWidth: 0
             bulletHeight: 10
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
@@ -38,7 +38,7 @@
             speed: 1.0
             damage: 15
             reloadMultiplier: 1.0
-            bulletWidht: 0
+            bulletWidth: 0
             bulletHeight: 10
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
@@ -49,6 +49,7 @@
             status: burning
         }
     }
+    coolantMultiplier: 0.7
     requirements: [
        bronze/160
        copper/400

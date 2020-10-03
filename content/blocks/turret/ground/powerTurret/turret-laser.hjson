@@ -6,8 +6,6 @@
  size: 3
  recoil: 0
  reload: 50.0
- coolDown: 50
- chargeTime: 30
  range: 200
  chargeMaxDelay: 30
  shootType: lancerLaser
@@ -15,7 +13,6 @@
  powerUse: 5.0
  inaccuracy: 0.0
  rotatespeed: 2
- status: shocked
  chargeEffects: 50.0
  requirements: [
   bronze/140
@@ -24,6 +21,7 @@
   plastanium/20
   crystal-of-cryofluid/10
  ]
+ coolantMultiplier: 0.7
  category: turret
  research: large-bronze-turret
 }

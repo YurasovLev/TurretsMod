@@ -1,0 +1,60 @@
+{
+	name: "Bastion"
+	description: "-"
+	size: 4
+	rotatespeed: 0.0
+	shootCone: 360
+	range: 220
+	health: 8800
+	recoil: 0
+	reload: 60
+	inaccuracy: 0.0
+	ammoUseEffect: shellEjectBig
+	shots: 10
+	spread: 36
+	maxAmmo: 150
+	itemCapacity: 150
+	ammo: {
+		titanit: {
+			speed: 2.0
+			lifetime: 110
+			damage: 180
+			reloadMultiplier: 1.0
+			bulletWidth: 3
+			bulletHeight: 5
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			type: missileBulletType
+			ammoMultiplier: 2
+			backColor: 2A5C60
+			frontColor: 276468
+		}
+		thorium: {
+			speed: 2.0
+			lifetime: 110
+			damage: 100
+			reloadMultiplier: 1.0
+			bulletWidth: 3
+			bulletHeight: 5
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			type: missileBulletType
+			ammoMultiplier: 1
+			backColor: A40089
+			frontColor: C711A9
+		}
+	}
+	requirements: [
+		bronze/100
+		titanit/230
+		lead/200
+		silicon/120
+		titanium/130
+		thorium/60
+	]
+	coolantMultiplier: 0.7
+	category: turret
+	research: turret-rose-hip-beta
+}
+	
+	

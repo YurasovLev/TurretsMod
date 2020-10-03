@@ -5,7 +5,6 @@ description: "-"
 outputItem: bronze/2
 size: 2
 hasPower: false
-hasItem: true
 craftTime: 60
 health: 300
 updateEffect: smeltsmoke

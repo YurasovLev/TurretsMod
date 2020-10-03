@@ -1,115 +1,112 @@
 {
- name: "Fireworks"
- description: "-"
- type: ArtilleryTurret
- range: 400
- recoil: 5
- reload: 60
- ammoUseEffect: shellEjectBig
- size: 2
- health: 1000
- inaccuracy: 3
- rotatespeed: 1.0
- targetAir: true
- ammo: {
-  titanit: {
-   speed: 2.0
-   damage: 150
-   lifetime: 200
-   reloadMultiplier: 0.9
-   shootEffect: shootBig
-   smokeEffect: shootBigSmoke
-   bulletWeight: 3
-   bulletHeight: 5
-   fragBullets: 5
-        fragBullet: {
-            damage: 50
-            speed: 1.0
-            lifetime: 20
-        }
-        fragBulletRadius: 10
-   backColor: 00EEFF
-   frontColor: A7F9FF
-   type: missileBulletType
-   ammoMultiplier: 2
-   splashDamageRadius: 15
-   splashDamage: 600
-  }
-  plastanium: {
-            speed: 4.0
-            damage: 150
-            lifetime: 100
-            reloadMultiplier: 1.5
-            bulletWidht: 7
-            bulletHeight: 9
-            fragBullets: 10
-        fragBullet: {
-            damage: 25
-            speed: 2.0
-            lifetime: 10
-        }
-        fragBulletRadius: 10
-            shootEffect: shootBig
-   		 smokeEffect: shootBigSmoke
-            
-            ammoMultiplier: 1
-            backColor: 00FF74
-            frontColor: 7BFFB7
-            type: missileBulletType
-           }
-  surge-alloy: {
-  	  fragBullets: 10
-        fragBullet: {
-            damage: 40
-            speed: 2.0
-            lifetime: 10
-        }
-        fragBulletRadius: 10
-            speed: 4.0
-            lifetime: 100
-            damage: 300
-            reloadMultiplier: 1.0
-            bulletWidht: 7
-            bulletHeight: 9
-            shootEffect: shootBig
-   		 smokeEffect: shootBigSmoke
-            
-            ammoMultiplier: 1
-            backColor: FFD800
-            frontColor: FFEC83
-            type: missileBulletType
-            status: burning
-           }
-       bronze: {
-        speed: 5.0
-        lifetime: 80
-        damage: 100
-        fragBullets: 10
-        fragBullet: {
-            damage: 20
-            speed: 2.5
-            lifetime: 20
-        }
-        type: missileBulletType
-        fragBulletRadius: 10
-        reloadMultiplier: 1.0
-        ammoMultiplier: 1
-        recoil: 4.0
-        inaccuracy: 3.0
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke
-        bulletWidth: 7
-        bulletHeight: 10
-        frontColor: FFE5CD
-        backColor: FF7A00
-    }
- }
- requirements: [
-  bronze/100
-  titanium/60
-  silicon/65
-  lead/70
- ]
- category: turret
- research: large-bronze-turret
+	name: "Fireworks"
+	description: "-"
+	type: ArtilleryTurret
+	range: 400
+	recoil: 5
+	reload: 60
+	ammoUseEffect: shellEjectBig
+	size: 2
+	health: 1000
+	inaccuracy: 3
+	rotatespeed: 1.0
+	targetAir: true
+	ammo: {
+		titanit: {
+			speed: 2.0
+			damage: 150
+			lifetime: 200
+			reloadMultiplier: 0.9
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			bulletWidth: 3
+			bulletHeight: 5
+			fragBullets: 5
+			fragBullet: {
+				damage: 50
+				speed: 1.0
+				lifetime: 20
+			}
+			backColor: 00EEFF
+			frontColor: A7F9FF
+			type: missileBulletType
+			ammoMultiplier: 2
+			splashDamageRadius: 15
+			splashDamage: 600
+		}
+		plastanium: {
+			speed: 4.0
+			damage: 150
+			lifetime: 100
+			reloadMultiplier: 1.5
+			bulletWidth: 7
+			bulletHeight: 9
+			fragBullets: 10
+			fragBullet: {
+				damage: 25
+				speed: 2.0
+				lifetime: 10
+			}
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			
+			ammoMultiplier: 1
+			backColor: 00FF74
+			frontColor: 7BFFB7
+			type: missileBulletType
+		}
+		surge-alloy: {
+			fragBullets: 10
+			fragBullet: {
+				damage: 130
+				speed: 2.0
+				lifetime: 10
+			}
+			speed: 4.0
+			lifetime: 100
+			damage: 500
+			reloadMultiplier: 1.0
+			bulletWidth: 7
+			bulletHeight: 9
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			
+			ammoMultiplier: 1
+			backColor: FFD800
+			frontColor: FFEC83
+			type: missileBulletType
+			status: burning
+		}
+		bronze: {
+			speed: 5.0
+			lifetime: 80
+			damage: 100
+			fragBullets: 10
+			fragBullet: {
+				damage: 20
+				speed: 2.5
+				lifetime: 20
+			}
+			type: missileBulletType
+			reloadMultiplier: 1.0
+			ammoMultiplier: 1
+			recoil: 4.0
+			inaccuracy: 3.0
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			bulletWidth: 7
+			bulletHeight: 10
+			frontColor: FFE5CD
+			backColor: FF7A00
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+		bronze/100
+		titanium/60
+		silicon/65
+		lead/70
+	]
+	category: turret
+	research: large-bronze-turret
 }

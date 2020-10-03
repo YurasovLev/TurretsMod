@@ -8,27 +8,13 @@ targetAir: false
 rotatespeed: 1.0
 shootCone: 5
 shootShake: 0.5
-ammaUseEffect: shellEjectSmall
+ammoUseEffect: shellEjectSmall
 reload: 1
 recoil: 1
-inaccuracy: 10.0
+inaccuracy: 0.1
 itemCapacity: 500
 maxAmmo: 250
 ammo: {
-	titanium: {
-		speed: 10.0
-		damage: 40
-		reloadMultiplier: 1.0
-		ammoMultiplier: 1
-		lifetime: 15
-		inaccuracy: 5
-		recoil: 1
-		knockback: 4
-		bulletWidth: 5
-		bulletHeight: 6
-		frontColor: "2A85FF"
-		backColor: "2546E0"
-	}
 	titanit: {
 		speed: 10.0
 		damage: 55
@@ -44,6 +30,7 @@ ammo: {
 		backColor: 2A5C60
 	}
 }
+coolantMultiplier: 0.7
 requirements: [
 	titanium/350
 	titanit/560

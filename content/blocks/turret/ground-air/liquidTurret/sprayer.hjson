@@ -1,94 +1,78 @@
 {
-    type: liquidTurret
-    name: "Sprayer"
-    description: "-"
-    health: 2000
-    size: 3
-    recoil: 1
-    reload: 0.5
-    range: 100
-    ammoUseEffect: shellEjectSmall
-    targetGround: true
-    inaccuracy: 0.0
-    shots: 15
-    rotatespeed: 5.0
-    ammo: {
-        water: {
-            speed: 2.0
-            lifetime: 50
-            type: LiquidBulletType
-            liquid: water
-            damage: 5
-            reloadMultiplier: 1.0
-            bulletWidht: 7
-            bulletHeight: 9
-           shootEffect: shootLiquid
-     smokeEffect: shootSmallSmoke
-            
-            ammoMultiplier: 1
-            backColor: 004AFF
-            frontColor: 004AFF
-            status: wet
-        }
-        slag: {
-            speed: 2.0
-            lifetime: 50
-            damage: 5
-            type: LiquidBulletType
-            liquid: slag
-            reloadMultiplier: 1.0
-            bulletWidht: 5
-            bulletHeight: 9
-            shootEffect: shootLiquid
-            smokeEffect: shootSmallSmoke
-            
-            ammoMultiplier: 1
-            backColor: FFA200
-            frontColor: FFA200
-            status: burning
-        }
-        cryofluid: {
-            speed: 2.0
-            lifetime: 50
-            damage: 5
-            type: LiquidBulletType
-            liquid: cryofluid
-            reloadMultiplier: 1.0
-            bulletWidht: 5
-            bulletHeight: 9
-            shootEffect: shootLiquid
-            smokeEffect: shootSmallSmoke
-            
-            ammoMultiplier: 1
-            backColor: 00FFED
-            frontColor: 00FFED
-            status: freezing
-        }
-        oil: {
-            speed: 2.0
-            damage: 5
-            lifetime: 50
-            type: LiquidBulletType
-            liquid: oil
-            reloadMultiplier: 1.0
-            bulletWidht: 5
-            bulletHeight: 9
-            shootEffect: shootLiquid
-            smokeEffect: shootSmallSmoke
-            
-            ammoMultiplier: 1
-            status: tarred
-            backColor: 000000
-            frontColor: 000000
-        }
-    }
-    requirements: [
-        bronze/70
-        titanit/85
-        copper/120
-	    lead/50
-        metaglass/35
-    ]
-    category: turret
-    research: turret-storm
+	type: liquidTurret
+	name: "Sprayer"
+	description: "-"
+	health: 2000
+	size: 3
+	recoil: 1
+	reload: 0.5
+	range: 100
+	ammoUseEffect: shellEjectSmall
+	targetGround: true
+	inaccuracy: 0.0
+	shots: 15
+	rotatespeed: 5.0
+	ammo: {
+		water: {
+			speed: 2.0
+			lifetime: 50
+			type: LiquidBulletType
+			liquid: water
+			damage: 5
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 1
+			status: wet
+		}
+		slag: {
+			speed: 2.0
+			lifetime: 50
+			damage: 5
+			type: LiquidBulletType
+			liquid: slag
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 1
+			status: burning
+		}
+		cryofluid: {
+			speed: 2.0
+			lifetime: 50
+			damage: 5
+			type: LiquidBulletType
+			liquid: cryofluid
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 1
+			status: freezing
+		}
+		oil: {
+			speed: 2.0
+			damage: 5
+			lifetime: 50
+			type: LiquidBulletType
+			liquid: oil
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 1
+			status: tarred
+		}
+	}
+	requirements: [
+		bronze/70
+		titanit/85
+		copper/120
+		lead/50
+		metaglass/35
+	]
+	category: turret
+	research: turret-storm
 }

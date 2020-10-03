@@ -20,7 +20,7 @@
             speed: 3.0
             damage: 150
             reloadMultiplier: 1.0
-            bulletWidht: 7
+            bulletWidth: 7
             bulletHeight: 9
             shootEffect: shootBig
             smokeEffect: shootBigSmoke
@@ -32,9 +32,9 @@
         surge-alloy: {
             lifetime: 130
             speed: 3.0
-            damage: 150
+            damage: 500
             reloadMultiplier: 1.0
-            bulletWidht: 7
+            bulletWidth: 7
             bulletHeight: 9
            shootEffect: shootBig
      smokeEffect: shootBigSmoke
@@ -46,6 +46,7 @@
             status: burning
            }
     }
+    coolantMultiplier: 0.7
     requirements: [
        bronze/70
        titanit/85

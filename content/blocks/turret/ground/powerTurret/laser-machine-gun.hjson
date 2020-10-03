@@ -6,7 +6,6 @@
  size: 4
  recoil: 1
  reload: 6
- coolDown: 30
  chargeTime: 10
  range: 100
  chargeMaxDelay: 30
@@ -15,7 +14,6 @@
  powerUse: 25.0
  inaccuracy: 0.0
  rotatespeed: 1.0
- status: shocked
  chargeEffects: 50.0
  requirements: [
   titanit/650
@@ -25,6 +23,7 @@
   plastanium/250
   crystal-of-cryofluid/50
  ]
+ coolantMultiplier: 0.7
  category: turret
  research: turret-laser
 }
