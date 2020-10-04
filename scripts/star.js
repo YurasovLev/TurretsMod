@@ -1,6 +1,12 @@
 const star = extendContent(ItemTurret, "star", {
 	r: false,
 	rot: 90,
+	drawLayer(tile){
+		var entity=tile.ent();
+		tr2.trns(0, -entity.recoil);
+		drawer.get(tile, entity);
+		heatDrawer.get(tile, entity);
+	},
 	turnToTarget(tile, targetRot){
 		entity=tile.ent();
 		if(this.r?entity.rotation<=this.rot:entity.rotation>=this.rot){
