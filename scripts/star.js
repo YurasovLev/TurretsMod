@@ -4,8 +4,8 @@ const star = extendContent(ItemTurret, "star", {
 	drawLayer(tile){
 		var entity=tile.ent();
 		this.tr2.trns(0, -entity.recoil);
-		drawer.get(tile, entity);
-		heatDrawer.get(tile, entity);
+		this.drawer.get(tile, entity);
+		this.heatDrawer.get(tile, entity);
 	},
 	turnToTarget(tile, targetRot){
 		entity=tile.ent();
