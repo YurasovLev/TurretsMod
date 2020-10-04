@@ -3,7 +3,7 @@ const star = extendContent(ItemTurret, "star", {
 	rot: 90,
 	drawLayer(tile){
 		var entity=tile.ent();
-		tr2.trns(0, -entity.recoil);
+		this.tr2.trns(0, -entity.recoil);
 		drawer.get(tile, entity);
 		heatDrawer.get(tile, entity);
 	},
