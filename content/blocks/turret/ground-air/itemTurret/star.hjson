@@ -22,7 +22,7 @@
 			ammoMultiplier: 2
 			backColor: B19416
 			frontColor: FFD10B
-			splashDamageRadius: 5
+			splashDamageRadius: 50
 			splashDamage: 600
 		}
 	}
