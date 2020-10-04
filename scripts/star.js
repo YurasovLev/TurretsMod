@@ -4,8 +4,13 @@ const star = extendContent(ItemTurret, "star", {
 	drawLayer(tile){
 		var entity=tile.ent();
 		this.tr2.trns(0, -entity.recoil);
-		this.drawer.get(tile, entity);
-		this.heatDrawer.get(tile, entity);
+		Draw.rect(this.region, tile.drawx()+this.tr2.x, tile.drawy()+this.tr2.y, 0);
+		if(entity.heat<=0.00001)return;
+		Draw.color(this.heatColor, entity.heat);
+		Draw.blend(Blending.additive);
+		Draw.rect(this.heatRegion, tile.drawx()+this.tr2.x, tile.drawy()+this.tr2.y, 0);
+		Draw.blend();
+		Draw.color();
 	},
 	turnToTarget(tile, targetRot){
 		entity=tile.ent();
