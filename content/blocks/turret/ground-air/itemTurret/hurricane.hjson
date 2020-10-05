@@ -3,9 +3,9 @@
 	recoil: 0
 	reload: 20
 	range: 300
-	spread: 90
+	spread: 60
 	inaccuracy: 0
-	shots: 4
+	shots: 6
 	shootEffect: none
 	shootCone: 360
 	ammo: {
