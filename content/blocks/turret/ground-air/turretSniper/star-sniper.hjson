@@ -10,7 +10,7 @@
 	ammoUseEffect: shellEjectBig
 	inaccuracy: 0.0
 	shots: 3
-	rotatespeed: 0.1
+	rotatespeed: 0.5
 	ammo: {
 		surge-alloy: {
 			speed: 100.0
