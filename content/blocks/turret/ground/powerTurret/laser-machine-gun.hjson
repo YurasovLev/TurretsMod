@@ -7,7 +7,7 @@
  recoil: 1
  reload: 6
  chargeTime: 10
- range: 100
+ range: 200
  chargeMaxDelay: 30
  shootType: lancerLaser
  targetAir: false
