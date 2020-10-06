@@ -7,7 +7,7 @@ const hurricane = extendContent(ItemTurret, "hurricane", {
 		Bullet.create(type, tile.entity, tile.getTeam(), tile.drawx(), tile.drawy(), angle);
 	},
 	draw(tile){
-		Draw.rect(this.baseRegion, tile.drawx(), tile.drawy());
+		Draw.rect(Core.atlas.find("block-6"), tile.drawx(), tile.drawy());
 		Draw.color();
 	}
 });
