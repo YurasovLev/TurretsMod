@@ -1,6 +1,7 @@
 {
 	health: 4600
 	recoil: 0
+	size: 6
 	reload: 20
 	range: 300
 	spread: 60

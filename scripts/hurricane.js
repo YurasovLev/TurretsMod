@@ -11,5 +11,3 @@ const hurricane = extendContent(ItemTurret, "hurricane", {
 		Draw.color();
 	}
 });
-
-hurricane.size=6;
