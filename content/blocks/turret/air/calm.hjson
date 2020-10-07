@@ -12,44 +12,48 @@
  shots: 8
  spread: 45
  ammo: {
-  titanit: {
-   speed: 3.0
-   lifetime: 100
-   damage: 90
-   reloadMultiplier: 1.0
-   bulletWidth: 3
-   bulletHeight: 5
-   shootEffect: shootBig
-   smokeEffect: shootBigSmoke
-   type: missileBulletType
-   ammoMultiplier: 1
-   backColor: 2A5C60
-   frontColor: 276468
-  }
-  bronze: {
-   speed: 3.0
-   lifetime: 100
-   damage: 60
-   reloadMultiplier: 1.0
-   bulletWidth: 3
-   bulletHeight: 5
-   shootEffect: shootBig
-   smokeEffect: shootBigSmoke
-   type: missileBulletType
-   ammoMultiplier: 1
-   backColor: AF8A69
-   frontColor: ffdab9
-  }
- }
- requirements: [
-  bronze/70
-  titanit/150
-  lead/55
-  silicon/55
- ]
- coolantMultiplier: 0.7
- category: turret
- research: rose-hip-beta
+    titanit: {
+        speed: 3.0
+        lifetime: 100
+        damage: 90
+        reloadMultiplier: 1.0
+        bulletWidth: 3
+        bulletHeight: 5
+        shootEffect: shootBig
+        smokeEffect: shootBigSmoke
+        type: missileBulletType
+        ammoMultiplier: 1
+        splashDamageRadius: 50
+        splashDamage: 80
+        backColor: 2A5C60
+        frontColor: 276468
+    }
+    bronze: {
+        speed: 3.0
+        lifetime: 100
+        damage: 60
+        reloadMultiplier: 1.0
+        bulletWidth: 3
+        bulletHeight: 5
+        shootEffect: shootBig
+        smokeEffect: shootBigSmoke
+        type: missileBulletType
+        ammoMultiplier: 1
+        backColor: AF8A69
+        frontColor: ffdab9
+        splashDamageRadius: 50
+        splashDamage: 40
+    }
+}
+requirements: [
+    bronze/70
+    titanit/150
+    lead/55
+    silicon/55
+]
+coolantMultiplier: 0.7
+category: turret
+research: rose-hip-beta
 }
  
  

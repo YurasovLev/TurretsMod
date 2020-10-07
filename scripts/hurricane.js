@@ -7,4 +7,3 @@ const hurricane = extendContent(ItemTurret, "hurricane", {
 		Bullet.create(type, tile.entity, tile.getTeam(), tile.drawx(), tile.drawy(), angle);
 	}
 });
-hurricane.baseRegion = Core.atlas.find("block-6");
