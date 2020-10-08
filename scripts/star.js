@@ -21,7 +21,7 @@ const star = extendContent(ItemTurret, "star", {
 			if(this.shots>10)this.shots=4;
 			this.spread=360/this.shots;
 		}else{
-			entity.rotation+=(this.r?-5:5);
+			entity.rotation+=(this.r?-5:5.5);
 		};
 			
 	},
