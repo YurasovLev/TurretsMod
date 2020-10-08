@@ -23,8 +23,8 @@
         smokeEffect: shootBigSmoke
         type: missileBulletType
         ammoMultiplier: 1
-        splashDamageRadius: 50
-        splashDamage: 80
+        splashDamageRadius: 15
+        splashDamage: 35
         backColor: 2A5C60
         frontColor: 276468
     }
@@ -41,15 +41,16 @@
         ammoMultiplier: 1
         backColor: AF8A69
         frontColor: ffdab9
-        splashDamageRadius: 50
-        splashDamage: 40
+        splashDamageRadius: 20
+        splashDamage: 30
     }
 }
 requirements: [
-    bronze/70
-    titanit/150
-    lead/55
-    silicon/55
+    plastanium/130
+    bronze/500
+    titanit/250
+    lead/120
+    silicon/130
 ]
 coolantMultiplier: 0.7
 category: turret
