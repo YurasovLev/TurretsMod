@@ -16,7 +16,7 @@
         titanit: {
             speed: 5.0
             lifetime: 160
-            damage: 1000
+            damage: 660
             type: ArtilleryBulletType
             reloadMultiplier: 1.0
             bulletWidth: 10
@@ -33,7 +33,7 @@
         thorium: {
 	        speed: 5.0
 			lifetime: 160
-			damage: 540
+			damage: 220
 			type: ArtilleryBulletType
 			reloadMultiplier: 1.0
 			bulletWidth: 10

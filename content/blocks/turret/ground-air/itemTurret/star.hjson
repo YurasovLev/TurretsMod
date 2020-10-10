@@ -12,7 +12,7 @@
 	ammo: {
 		surge-alloy: {
 			speed: 0.5
-			damage: 2500
+			damage: 1650
 			lifetime: 1000
 			reloadMultiplier: 1.0
 			bulletWidth: 9

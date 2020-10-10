@@ -34,8 +34,8 @@
 				frontColor: 99CAD8
 			}
 		}
-		titanit: {
-			speed: 0.5
+		plastanium: {
+			speed: 1.0
 			damage: 230
 			lifetime: 600
 			reloadMultiplier: 1.0
@@ -44,18 +44,18 @@
 			shootEffect: none
 			smokeEffect: none
 			ammoMultiplier: 2
-			backColor: 2A5C60
-			frontColor: 276468
-			fragBullets: 2
+			backColor: 92D554
+			frontColor: 9BED4F
+			fragBullets: 4
 			fragBullet: {
-				speed: 0.5
-				damage: 60
+				speed: 1.0
+				damage: 90
 				lifetime: 30
 				bulletWidth: 4
 				bulletHeight: 4
 				
-				backColor: 2A5C60
-				frontColor: 276468
+				backColor: 92D554
+				frontColor: 9BED4F
 			}
 		}
 	}

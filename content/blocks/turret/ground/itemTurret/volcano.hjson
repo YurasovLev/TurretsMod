@@ -16,7 +16,7 @@
 		titanit: {
 			speed: 2.0
 			lifetime: 250
-			damage: 2300
+			damage: 720
 			type: ArtilleryBulletType
 			reloadMultiplier: 1.0
 			bulletWidth: 10
@@ -47,7 +47,7 @@
 		thorium: {
 			speed: 2.0
 			lifetime: 250
-			damage: 980
+			damage: 440
 			fragBullets: 5
 			fragBullet: {
 				backColor: 980A0D

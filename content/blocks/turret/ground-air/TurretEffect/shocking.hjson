@@ -57,7 +57,7 @@
 			statusDuration: 9999.0
 		}
 	}
-	coolantMultiplier: 0.7
+	coolantMultiplier: 0.9
 	requirements: [
 		bronze/50
 		titanit/120

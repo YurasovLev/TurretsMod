@@ -3,7 +3,7 @@ name: "Multi turret"
 description: "-"
 health: 1300
 size: 3
-range: 400
+range: 200
 ammoUseEffect: shellEjectBig
 reload: 20
 recoil: 3.0
@@ -19,7 +19,7 @@ ammo: {
         ammoMultiplier: 2
         recoil: 5.0
         inaccuracy: 5.0
-        lifetime: 66
+        lifetime: 33.3333
         shootEffect: shootBig
         smokeEffect: shootBigSmoke
         bulletWidth: 7
@@ -34,7 +34,7 @@ ammo: {
         ammoMultiplier: 1
         recoil: 6.0
         inaccuracy: 7.0
-        lifetime: 66
+        lifetime: 33.3333
         shootEffect: shootBig
         smokeEffect: shootBigSmoke
         bulletWidth: 7
@@ -44,7 +44,7 @@ ammo: {
     }
     scrap: {
         speed: 5.5
-        lifetime: 72
+        lifetime: 36.3636364
         damage: 65
         reloadMultiplier: 1.0
         ammoMultiplier: 0.5
@@ -59,7 +59,7 @@ ammo: {
     }
     titanium: {
         speed: 4.0
-        lifetime: 100
+        lifetime: 50
         damage: 70
         reloadMultiplier: 0.8
         ammoMultiplier: 1
@@ -74,7 +74,7 @@ ammo: {
     }
     graphite: {
         speed: 5.0
-        lifetime: 80
+        lifetime: 40
         damage: 50
         fragBullets: 10
         fragBullet: {
@@ -94,7 +94,7 @@ ammo: {
         backColor: 53646A
     }
     coal: {
-            lifetime: 100
+            lifetime: 50
             type: ArtilleryBulletType
             trailEffect: burning
             speed: 4.0

@@ -15,7 +15,7 @@
 		spore-pod: {
 			speed: 10.0
 			lifetime: 600
-			damage: 15
+			damage: 45
 			reloadMultiplier: 1.0
 			shootEffect: none
 			bulletWidth: 5
@@ -30,7 +30,7 @@
 		sand: {
 			speed: 10.0
 			lifetime: 600
-			damage: 5
+			damage: 25
 			reloadMultiplier: 10.0
 			shootEffect: none
 			bulletWidth: 5

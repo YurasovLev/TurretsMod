@@ -18,7 +18,7 @@
 			lifetime: 100
 			type: LiquidBulletType
 			liquid: water
-			damage: 2
+			damage: 30
 			reloadMultiplier: 1.0
 			shootEffect: shootLiquid
 			smokeEffect: shootSmallSmoke
@@ -29,7 +29,7 @@
 		slag: {
 			speed: 1.0
 			lifetime: 100
-			damage: 5
+			damage: 45
 			type: LiquidBulletType
 			liquid: slag
 			reloadMultiplier: 1.0
@@ -42,7 +42,7 @@
 		cryofluid: {
 			speed: 1.0
 			lifetime: 100
-			damage: 4
+			damage: 40
 			type: LiquidBulletType
 			liquid: cryofluid
 			reloadMultiplier: 1.0
@@ -54,7 +54,7 @@
 		}
 		oil: {
 			speed: 1.0
-			damage: 1
+			damage: 40
 			lifetime: 100
 			type: LiquidBulletType
 			liquid: oil

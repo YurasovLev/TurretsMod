@@ -3,7 +3,7 @@ name: "Machine gun"
 description: "-"
 health: 5300
 size: 4
-range: 150
+range: 225
 targetAir: false
 rotatespeed: 1.0
 shootCone: 5

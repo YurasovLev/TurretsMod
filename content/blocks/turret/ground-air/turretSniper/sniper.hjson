@@ -15,7 +15,7 @@
 		bronze: {
 			speed: 50.0
 			lifetime: 10
-			damage: 350
+			damage: 95
 			reloadMultiplier: 0.5
 			bulletWidth: 3
 			bulletHeight: 9
@@ -29,7 +29,7 @@
 		titanit: {
 			speed: 50.0
 			lifetime: 10
-			damage: 500
+			damage: 150
 			reloadMultiplier: 0.5
 			bulletWidth: 3
 			bulletHeight: 9
