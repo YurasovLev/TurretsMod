@@ -6,7 +6,7 @@
     size: 4
     recoil: 5
     reload: 120
-    range: 800
+    range: 500
     ammoUseEffect: shellEjectBig
     targetAir: false
     inaccuracy: 1
@@ -15,7 +15,7 @@
     ammo: {
         titanit: {
             speed: 5.0
-            lifetime: 160
+            lifetime: 100
             damage: 660
             type: ArtilleryBulletType
             reloadMultiplier: 1.0
@@ -32,7 +32,7 @@
         }
         thorium: {
 	        speed: 5.0
-			lifetime: 160
+			lifetime: 100
 			damage: 220
 			type: ArtilleryBulletType
 			reloadMultiplier: 1.0

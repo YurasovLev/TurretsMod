@@ -5,7 +5,7 @@
 	health: 1200
 	size: 4
 	recoil: 0
-	reload: 5.0
+	reload: 10.0
 	shots: 5
 	shootCone: 15.0
 	shootCone: 15
