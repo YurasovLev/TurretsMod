@@ -37,7 +37,7 @@
 		plastanium: {
 			speed: 1.0
 			damage: 230
-			lifetime: 600
+			lifetime: 300
 			reloadMultiplier: 1.0
 			bulletWidth: 9
 			bulletHeight: 9
