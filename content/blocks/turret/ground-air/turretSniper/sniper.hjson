@@ -10,7 +10,7 @@
 	ammoUseEffect: shellEjectSmall
 	inaccuracy: 0.0
 	shots: 1
-	rotatespeed: 0.5
+	rotatespeed: 0.7
 	ammo: {
 		bronze: {
 			speed: 50.0
