@@ -23,7 +23,7 @@
             damage: 5
             reloadMultiplier: 1.0
             bulletWidth: 10
-            bulletHeight: 1
+            bulletHeight: 10
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
             
@@ -40,7 +40,7 @@
             damage: 15
             reloadMultiplier: 1.0
             bulletWidth: 10
-            bulletHeight: 1
+            bulletHeight: 10
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
             
