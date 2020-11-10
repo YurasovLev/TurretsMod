@@ -1,0 +1,76 @@
+{
+	type: liquidTurret
+	name: "Stream"
+	description: "-"
+	health: 500
+	size: 1
+	recoil: 0
+	reload: 1
+	range: 60
+	ammoUseEffect: shellEjectSmall
+	targetAir: false
+	inaccuracy: 1.0
+	shots: 1
+	rotatespeed: 6.0
+	ammo: {
+		water: {
+			speed: 1.0
+			lifetime: 100
+			type: LiquidBulletType
+			liquid: water
+			damage: 30
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 4
+			status: wet
+		}
+		slag: {
+			speed: 1.0
+			lifetime: 100
+			damage: 45
+			type: LiquidBulletType
+			liquid: slag
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 4
+			status: burning
+		}
+		cryofluid: {
+			speed: 1.0
+			lifetime: 100
+			damage: 40
+			type: LiquidBulletType
+			liquid: cryofluid
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 4
+			status: freezing
+		}
+		oil: {
+			speed: 1.0
+			damage: 40
+			lifetime: 100
+			type: LiquidBulletType
+			liquid: oil
+			reloadMultiplier: 1.0
+			shootEffect: shootLiquid
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 4
+			status: tarred
+		}
+	}
+	requirements: [
+		bronze/5
+		copper/25
+		metaglass/5
+	]
+	category: turret
+	research: duo
+}

@@ -1,0 +1,54 @@
+{
+    type: ItemTurret
+    name: "Storm"
+    description: "-"
+    health: 400
+    size: 3
+    recoil: 1
+    reload: 1
+    range: 200
+    ammoUseEffect: shellEjectSmall
+    targetGround: false
+    inaccuracy: 1
+    shots: 10
+    rotatespeed: 50
+    ammo: {
+        bronze: {
+            speed: 6.0
+            lifetime: 33
+            damage: 10
+            reloadMultiplier: 0.1
+            bulletWidth: 7
+            bulletHeight: 9
+            shootEffect: shootSmall
+            smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 1
+            backColor: AF8A69
+            frontColor: ffdab9
+        }
+        copper: {
+            speed: 10.0
+            lifetime: 20
+            damage: 5
+            reloadMultiplier: 1.0
+            bulletWidth: 5
+            bulletHeight: 9
+           shootEffect: shootSmall
+     smokeEffect: shootSmallSmoke
+            
+            ammoMultiplier: 2
+            backColor: FFD900
+            frontColor: FFD900
+        }
+    }
+    coolantMultiplier: 0.7
+    requirements: [
+       bronze/80
+       copper/120
+	   lead/50
+       silicon/35
+    ]
+    category: turret
+    research: large-bronze-turret
+}

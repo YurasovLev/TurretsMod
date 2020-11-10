@@ -1,0 +1,59 @@
+{
+    type: ItemTurret
+    name: "Flamethrower"
+    description: "-"
+    health: 2000
+    size: 3
+    recoil: 1
+    reload: 1
+    range: 80
+    ammoUseEffect: burning
+    targetGround: true
+    targetAir: false
+    inaccuracy: 1.0
+    shots: 10
+    spread: 1.0
+    rotatespeed: 4.0
+    ammo: {
+        coal: {
+            lifetime: 25
+            speed: 3.0
+            damage: 5
+            reloadMultiplier: 1.0
+            bulletWidth: 10
+            bulletHeight: 10
+            shootEffect: shootPyraFlame
+            smokeEffect: fireSmoke
+            
+            ammoMultiplier: 1
+            backColor: FFA200
+            frontColor: FFA200
+            status: burning
+        }
+        pyratite: {
+            lifetime: 40
+            speed: 2.0
+            damage: 15
+            reloadMultiplier: 1.0
+            bulletWidth: 10
+            bulletHeight: 10
+            shootEffect: shootPyraFlame
+            smokeEffect: fireSmoke
+            
+            ammoMultiplier: 1
+            backColor: FFA200
+            frontColor: FFA200
+            status: burning
+        }
+    }
+    coolantMultiplier: 0.7
+    requirements: [
+       bronze/160
+       copper/400
+	   lead/320
+       metaglass/30
+       cryocrystal/15
+    ]
+    category: turret
+    research: storm
+}

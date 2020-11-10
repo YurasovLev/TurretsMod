@@ -1,0 +1,90 @@
+{
+	type: ArtilleryTurret
+	name: "Volcano"
+	description: "-"
+	health: 4500
+	size: 4
+	recoil: 5
+	reload: 180
+	range: 500
+	ammoUseEffect: shellEjectBig
+	targetAir: false
+	inaccuracy: 5.0
+	shots: 5
+	rotatespeed: 2.0
+	ammo: {
+		titanit: {
+			speed: 2.0
+			lifetime: 250
+			damage: 720
+			type: ArtilleryBulletType
+			reloadMultiplier: 1.0
+			bulletWidth: 10
+			bulletHeight: 10
+			status: burning
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			fragBullets: 3
+			fragBullet: {
+				backColor: 980A0D
+		   	 frontColor: A91600
+				bulletWidth: 1
+				bulletHeight: 1
+				damage: 20
+				speed: 2.5
+				lifetime: 20
+				splashDamageRadius: 5
+				splashDamage: 5
+				type: ArtilleryBulletType
+				status: burning
+			}
+			ammoMultiplier: 1
+			backColor: AF1316
+			frontColor: E90E12
+			splashDamageRadius: 50
+			splashDamage: 600
+		}
+		thorium: {
+			speed: 2.0
+			lifetime: 250
+			damage: 440
+			fragBullets: 5
+			fragBullet: {
+				backColor: 980A0D
+		   	 frontColor: A91600
+				bulletWidth: 1
+				bulletHeight: 1
+				damage: 15
+				speed: 3.0
+				lifetime: 20
+				splashDamageRadius: 5
+				splashDamage: 5
+				type: ArtilleryBulletType
+				status: burning
+			}
+			type: ArtilleryBulletType
+			reloadMultiplier: 1.0
+			bulletWidth: 10
+			bulletHeight: 10
+			status: burning
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			ammoMultiplier: 1
+			backColor: AF1316
+			frontColor: E90E12
+			splashDamageRadius: 50
+			splashDamage: 800
+		}
+	}
+	requirements: [
+	   bronze/180
+	   titanit/350
+	   thorium/390
+	   plastanium/380
+	   silicon/230
+	   surge-alloy/125
+	]
+	coolantMultiplier: 0.7
+	category: turret
+	research: mortar
+}
