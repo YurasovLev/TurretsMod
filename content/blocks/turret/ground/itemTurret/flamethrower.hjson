@@ -10,7 +10,7 @@
     ammoUseEffect: burning
     targetGround: true
     targetAir: false
-    inaccuracy: 5.0
+    inaccuracy: 1.0
     shots: 10
     spread: 1.0
     rotatespeed: 4.0
