@@ -5,7 +5,7 @@
     health: 2000
     size: 3
     recoil: 1
-    reload: 1
+    reload: 10
     range: 80
     ammoUseEffect: burning
     targetGround: true
