@@ -16,7 +16,7 @@
         bronze: {
             speed: 6.0
             lifetime: 33
-            damage: 5
+            damage: 10
             reloadMultiplier: 0.1
             bulletWidth: 7
             bulletHeight: 9
@@ -30,14 +30,14 @@
         copper: {
             speed: 10.0
             lifetime: 20
-            damage: 1
+            damage: 5
             reloadMultiplier: 1.0
             bulletWidth: 5
             bulletHeight: 9
            shootEffect: shootSmall
      smokeEffect: shootSmallSmoke
             
-            ammoMultiplier: 1
+            ammoMultiplier: 2
             backColor: FFD900
             frontColor: FFD900
         }
