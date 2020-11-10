@@ -20,7 +20,7 @@ ammo: {
 		damage: 55
 		reloadMultiplier: 1.0
 		ammoMultiplier: 2
-		lifetime: 15
+		lifetime: 22.5
 		inaccuracy: 6
 		recoil: 1
 		knockback: 4
