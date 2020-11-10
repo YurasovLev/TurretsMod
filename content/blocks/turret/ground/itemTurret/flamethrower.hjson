@@ -10,16 +10,17 @@
     ammoUseEffect: burning
     targetGround: true
     targetAir: false
-    inaccuracy: 10.0
-    shots: 5
+    inaccuracy: 5.0
+    shots: 10
+    spread: 1.0
     rotatespeed: 4.0
     ammo: {
         coal: {
-            lifetime: 40
-            speed: 2.0
+            lifetime: 25
+            speed: 3.0
             damage: 5
             reloadMultiplier: 1.0
-            bulletWidth: 10
+            bulletWidth: 1
             bulletHeight: 10
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
@@ -30,11 +31,11 @@
             status: burning
         }
         pyratite: {
-            lifetime: 80
-            speed: 1.0
+            lifetime: 40
+            speed: 2.0
             damage: 15
             reloadMultiplier: 1.0
-            bulletWidth: 10
+            bulletWidth: 1
             bulletHeight: 10
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
