@@ -16,7 +16,7 @@
         bronze: {
             speed: 6.0
             lifetime: 33
-            damage: 25
+            damage: 5
             reloadMultiplier: 0.1
             bulletWidth: 7
             bulletHeight: 9
@@ -30,7 +30,7 @@
         copper: {
             speed: 10.0
             lifetime: 20
-            damage: 10
+            damage: 1
             reloadMultiplier: 1.0
             bulletWidth: 5
             bulletHeight: 9
