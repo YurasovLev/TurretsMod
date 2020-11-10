@@ -2,7 +2,7 @@
 	name: "Fireworks"
 	description: "-"
 	type: ArtilleryTurret
-	range: 400
+	range: 200
 	recoil: 5
 	reload: 60
 	ammoUseEffect: shellEjectBig
@@ -15,7 +15,7 @@
 		titanit: {
 			speed: 2.0
 			damage: 150
-			lifetime: 200
+			lifetime: 100
 			reloadMultiplier: 0.9
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
@@ -37,7 +37,7 @@
 		plastanium: {
 			speed: 4.0
 			damage: 150
-			lifetime: 100
+			lifetime: 50
 			reloadMultiplier: 1.5
 			bulletWidth: 7
 			bulletHeight: 9
@@ -63,7 +63,7 @@
 				lifetime: 10
 			}
 			speed: 4.0
-			lifetime: 100
+			lifetime: 50
 			damage: 500
 			reloadMultiplier: 1.0
 			bulletWidth: 7
@@ -79,7 +79,7 @@
 		}
 		bronze: {
 			speed: 5.0
-			lifetime: 80
+			lifetime: 40
 			damage: 100
 			fragBullets: 10
 			fragBullet: {
