@@ -9,7 +9,7 @@
     reload: 30
     range: 400
     shootCone: 10
-    ammoUseEffect: shellEjectBig
+    ammoUseEffect: casing3
     targetGround: true
     inaccuracy: 0
     shots: 5

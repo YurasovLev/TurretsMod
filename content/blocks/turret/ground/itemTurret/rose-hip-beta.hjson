@@ -7,7 +7,7 @@
  recoil: 0
  reload: 30
  inaccuracy: 90.0
- ammoUseEffect: shellEjectBig
+ ammoUseEffect: none
  targetAir: false
  shots: 100
  ammo: {

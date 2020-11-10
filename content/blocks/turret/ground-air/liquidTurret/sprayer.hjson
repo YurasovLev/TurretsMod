@@ -7,7 +7,7 @@
 	recoil: 1
 	reload: 0.5
 	range: 100
-	ammoUseEffect: shellEjectSmall
+	ammoUseEffect: casing1
 	targetGround: true
 	inaccuracy: 0.0
 	shots: 15

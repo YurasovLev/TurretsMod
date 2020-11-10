@@ -7,7 +7,7 @@
     recoil: 6
     reload: 4
     range: 100
-    ammoUseEffect: shellEjectSmall
+    ammoUseEffect: casing1
     inaccuracy: 10
     rotatespeed: 10.0
     ammo: {

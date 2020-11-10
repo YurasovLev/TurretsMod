@@ -4,7 +4,7 @@ description: "-"
 health: 1300
 size: 3
 range: 200
-ammoUseEffect: shellEjectBig
+ammoUseEffect: casing3
 reload: 20
 recoil: 3.0
 inaccuracy: 5

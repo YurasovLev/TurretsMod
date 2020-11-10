@@ -7,7 +7,7 @@
 	recoil: 0
 	reload: 60
 	inaccuracy: 0.0
-	ammoUseEffect: shellEjectBig
+	ammoUseEffect: casing3
 	shots: 10
 	spread: 36
 	maxAmmo: 150

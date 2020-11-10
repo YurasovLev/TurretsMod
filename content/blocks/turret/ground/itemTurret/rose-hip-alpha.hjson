@@ -5,7 +5,7 @@
  recoil: 0
  reload: 40
  inaccuracy: 360
- ammoUseEffect: shellEjectSmall
+ ammoUseEffect: none
  targetAir: false
  shots: 100
  rotatespeed: 0

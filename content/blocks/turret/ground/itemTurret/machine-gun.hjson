@@ -8,7 +8,7 @@ targetAir: false
 rotatespeed: 1.0
 shootCone: 5
 shootShake: 0.5
-ammoUseEffect: shellEjectSmall
+ammoUseEffect: casing1
 reload: 1
 recoil: 1
 inaccuracy: 0.1

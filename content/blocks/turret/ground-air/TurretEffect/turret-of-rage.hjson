@@ -7,7 +7,7 @@ reload: 30
 range: 300
 recoil: 5.0
 inaccuracy: 1.0
-ammoUseEffect: shellEjectSmall
+ammoUseEffect: casing1
 itemCapacity: 10
 maxAmmo: 40
 rotatespeed: 8.0

@@ -7,7 +7,7 @@ range: 300
 targetAir: false
 rotatespeed: 5.0
 shootCone: 5
-ammoUseEffect: shellEjectSmall
+ammoUseEffect: casing1
 shots: 3
 reload: 10
 recoil: 5

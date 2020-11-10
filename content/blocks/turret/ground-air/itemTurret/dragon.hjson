@@ -5,7 +5,7 @@
 	range: 400
 	recoil: 5
 	reload: 30
-	ammoUseEffect: shellEjectBig
+	ammoUseEffect: casing3
 	size: 3
 	health: 1500
 	inaccuracy: 0

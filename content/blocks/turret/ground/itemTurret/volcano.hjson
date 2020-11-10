@@ -7,7 +7,7 @@
 	recoil: 5
 	reload: 180
 	range: 500
-	ammoUseEffect: shellEjectBig
+	ammoUseEffect: casing3
 	targetAir: false
 	inaccuracy: 5.0
 	shots: 5

@@ -7,7 +7,7 @@
 	health: 1000
 	recoil: 0
 	reload: 6000
-	ammoUseEffect: shellEjectBig
+	ammoUseEffect: casing3
 	shots: 1000
 	maxAmmo: 1
 	itemCapacity: 1
