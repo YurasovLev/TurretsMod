@@ -3,7 +3,7 @@ description: "-"
 type: itemTurret
 health: 1000
 size: 2
-reload: 25
+reload: 30
 range: 300
 recoil: 5.0
 inaccuracy: 1.0
@@ -12,10 +12,10 @@ itemCapacity: 10
 maxAmmo: 40
 rotatespeed: 8.0
 ammo: {
-    titanium: {
+    titanit: {
         speed: 3.0
         lifetime: 100
-        damage: 155
+        damage: 130
         reloadMultiplier: 1.0
         ammoMultiplier: 2.0
         inaccuracy: 2.0
@@ -25,16 +25,17 @@ ammo: {
         backColor: 2A5C60
         status: {
             name: "rage"
+            effect: overdriven
             speedMultiplier: 1.5
-            damageMultiplier: 1.5
+            damageMultiplier: 2.0
             armorMultiplier: 0.5
-            statusDuration: 80
         }
+        statusDuration: 80
     }
     bronze: {
         speed: 5.0
         lifetime: 60
-        damage: 130
+        damage: 60
         reloadMultiplier: 1.5
         ammoMultiplier: 4.0
         inaccuracy: 4.0
@@ -44,14 +45,16 @@ ammo: {
         backColor: AF8A69
         status: {
             name: "rage2"
+            effect: overdriven
             speedMultiplier: 1.5
-            damageMultiplier: 1.5
+            damageMultiplier: 2.0
             armorMultiplier: 0.5
-            statusDuration: 80
         }
+        statusDuration: 80
     }
         
 }
+coolantMultiplier: 0.7
 requirements: [
     titanium/50
     bronze/60

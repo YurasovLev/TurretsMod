@@ -1,0 +1,28 @@
+name: "Руины"
+description: "Древняя база, которую из раза в раз пытаются отвоевать и удержать.\nВыйдет ли у вас?\nПовышенный уровень опасности."
+loadout: basicFoundation
+startingItems: [
+  copper/200
+  lead/300
+]
+conditionWave: 50
+launchPeriod: 25
+requirements: [
+  {
+    type: ZoneWave
+    zone: Fort
+    wave: 40
+  }
+  {
+    type: Unlock
+    block: laser-turret
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+  thorium
+  titanium
+]

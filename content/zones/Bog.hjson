@@ -1,0 +1,32 @@
+name: "Болото"
+description: "Из за повышенной влажности споры прекрасно себя чуствуют в данной области. Низкий уровень опасности."
+loadout: basicFoundation
+startingItems: [
+  copper/200
+  lead/300
+]
+conditionWave: 10
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 15
+  }
+  {
+    type: Unlock
+    block: cultivator
+  }
+  {
+    type: Unlock
+    block: factory-of-bronze
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+  thorium
+  titanium
+]

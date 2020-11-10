@@ -1,7 +1,6 @@
 {
  name: "Bronze"
- description: "Alloy Lead + Copper"
+ description: "---"
  type: material
  color: ffdab9
- tier: 2
 }

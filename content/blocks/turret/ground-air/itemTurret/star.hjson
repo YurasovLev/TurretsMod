@@ -1,0 +1,39 @@
+{
+	health: 4600
+	size: 6
+	recoil: 0
+	reload: 20
+	range: 500
+	spread: 90
+	inaccuracy: 0
+	shots: 4
+	shootEffect: none
+	shootCone: 360
+	ammo: {
+		surge-alloy: {
+			speed: 0.5
+			damage: 1650
+			lifetime: 1000
+			reloadMultiplier: 1.0
+			bulletWidth: 9
+			bulletHeight: 9
+			shootEffect: none
+			smokeEffect: none
+			ammoMultiplier: 2
+			backColor: B19416
+			frontColor: FFD10B
+			splashDamageRadius: 50
+			splashDamage: 600
+		}
+	}
+	coolantMultiplier: 0.9
+	requirements: [
+		titanit/330
+		bronze/550
+		plastanium/125
+		silicon/50
+		surge-alloy/550
+	]
+	category: turret
+	research: rose-hip-beta
+}

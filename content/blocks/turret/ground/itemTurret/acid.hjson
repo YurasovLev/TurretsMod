@@ -48,6 +48,7 @@
 			backColor: 468B00
 		}
     }
+    coolantMultiplier: 0.7
     requirements: [
        bronze/130
        titanit/60

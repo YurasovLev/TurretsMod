@@ -89,5 +89,5 @@
         metaglass/80
     ]
     category: turret
-    research: turret-storm
+    research: storm
 }

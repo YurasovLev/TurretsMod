@@ -1,0 +1,60 @@
+{
+ size: 3
+ rotatespeed: 0.0
+ shootCone: 360
+ range: 300
+ health: 1200
+ recoil: 0
+ reload: 30
+ inaccuracy: 0.0
+ ammoUseEffect: shellEjectBig
+ targetGround: false
+ shots: 8
+ spread: 45
+ ammo: {
+    titanit: {
+        speed: 3.0
+        lifetime: 100
+        damage: 90
+        reloadMultiplier: 1.0
+        bulletWidth: 3
+        bulletHeight: 5
+        shootEffect: shootBig
+        smokeEffect: shootBigSmoke
+        type: missileBulletType
+        ammoMultiplier: 1
+        splashDamageRadius: 15
+        splashDamage: 15
+        backColor: 2A5C60
+        frontColor: 276468
+    }
+    bronze: {
+        speed: 3.0
+        lifetime: 100
+        damage: 50
+        reloadMultiplier: 1.0
+        bulletWidth: 3
+        bulletHeight: 5
+        shootEffect: shootBig
+        smokeEffect: shootBigSmoke
+        type: missileBulletType
+        ammoMultiplier: 1
+        backColor: AF8A69
+        frontColor: ffdab9
+        splashDamageRadius: 20
+        splashDamage: 10
+    }
+}
+requirements: [
+    plastanium/130
+    bronze/500
+    titanit/250
+    lead/120
+    silicon/130
+]
+coolantMultiplier: 0.7
+category: turret
+research: rose-hip-beta
+}
+ 
+ 

@@ -1,50 +1,51 @@
 {
-    type: doubleTurret
-    name: "Large bronze turret"
-    description: "-"
-    health: 1400
-    size: 3
-    recoil: 6
-    reload: 4
-    range: 100
-    ammoUseEffect: shellEjectMedium
-    inaccuracy: 3
-    rotatespeed: 8.0
-    ammo: {
-        bronze: {
-            speed: 6.0
-            damage: 55
-            lifetime: 16.0
-            reloadMultiplier: 0.5
-            bulletWidht: 7
-            bulletHeight: 9
-           shootEffect: shootBig
-     smokeEffect: shootBigSmoke
-            
-            ammoMultiplier: 2
-            backColor: AF8A69
-            frontColor: ffdab9
-        }
-        copper: {
-            speed: 6.0
-            damage: 20
-            lifetime: 16.0
-            reloadMultiplier: 1.0
-            bulletWidht: 5
-            bulletHeight: 9
-           shootEffect: shootBig
-     smokeEffect: shootBigSmoke
-            
-            ammoMultiplier: 2
-            backColor: FFBA00
-            frontColor: FFBA00
-        }
-    }
-    requirements: [
-       bronze/60
-       copper/70
+	type: doubleTurret
+	name: "Large bronze turret"
+	description: "-"
+	health: 1400
+	size: 3
+	recoil: 6
+	reload: 4
+	range: 100
+	ammoUseEffect: shellEjectMedium
+	inaccuracy: 3
+	rotatespeed: 8.0
+	ammo: {
+		bronze: {
+			speed: 6.0
+			damage: 55
+			lifetime: 16.0
+			reloadMultiplier: 0.5
+			bulletWidth: 7
+			bulletHeight: 9
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			
+			ammoMultiplier: 2
+			backColor: AF8A69
+			frontColor: ffdab9
+		}
+		copper: {
+			speed: 6.0
+			damage: 20
+			lifetime: 16.0
+			reloadMultiplier: 1.0
+			bulletWidth: 5
+			bulletHeight: 9
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			
+			ammoMultiplier: 2
+			backColor: FFBA00
+			frontColor: FFBA00
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+	   bronze/60
+	   copper/70
 	   lead/60
-    ]
-    category: turret
-    research: bronze-turret
+	]
+	category: turret
+	research: bronze-turret
 }

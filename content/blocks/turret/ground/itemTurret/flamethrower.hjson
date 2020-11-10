@@ -7,21 +7,20 @@
     recoil: 1
     reload: 1
     range: 80
-    ammoUseEffect: shellEjectSmall
+    ammoUseEffect: burning
     targetGround: true
     targetAir: false
-    inaccuracy: 0
-    shots: 5
+    inaccuracy: 1.0
+    shots: 10
+    spread: 1.0
     rotatespeed: 4.0
     ammo: {
         coal: {
-            lifetime: 40
-            type: ArtilleryBulletType
-            trailEffect: burning
-            speed: 2.0
+            lifetime: 25
+            speed: 3.0
             damage: 5
             reloadMultiplier: 1.0
-            bulletWidht: 0
+            bulletWidth: 10
             bulletHeight: 10
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
@@ -32,13 +31,11 @@
             status: burning
         }
         pyratite: {
-            lifetime: 80
-            type: ArtilleryBulletType
-            trailEffect: burning
-            speed: 1.0
+            lifetime: 40
+            speed: 2.0
             damage: 15
             reloadMultiplier: 1.0
-            bulletWidht: 0
+            bulletWidth: 10
             bulletHeight: 10
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
@@ -49,13 +46,14 @@
             status: burning
         }
     }
+    coolantMultiplier: 0.7
     requirements: [
        bronze/160
        copper/400
 	   lead/320
        metaglass/30
-       crystal-of-cryofluid/15
+       cryocrystal/15
     ]
     category: turret
-    research: turret-storm
+    research: storm
 }
