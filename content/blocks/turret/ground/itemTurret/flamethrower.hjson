@@ -16,8 +16,6 @@
     ammo: {
         coal: {
             lifetime: 40
-            type: ArtilleryBulletType
-            trailEffect: none
             speed: 2.0
             damage: 5
             reloadMultiplier: 1.0
@@ -33,8 +31,6 @@
         }
         pyratite: {
             lifetime: 80
-            type: ArtilleryBulletType
-            trailEffect: none
             speed: 1.0
             damage: 15
             reloadMultiplier: 1.0
