@@ -11,7 +11,10 @@
 	shootCone: 15
 	range: 200
 	chargeMaxDelay: 30
-	shootType: lightning
+	shootType: {
+		type: lightning
+		damage: 100
+	}
 	powerUse: 18.0
 	inaccuracy: 20.0
 	rotatespeed: 2.0
