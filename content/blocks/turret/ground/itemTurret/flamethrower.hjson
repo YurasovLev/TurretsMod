@@ -20,8 +20,8 @@
             speed: 3.0
             damage: 5
             reloadMultiplier: 1.0
-            bulletWidth: 1
-            bulletHeight: 10
+            bulletWidth: 10
+            bulletHeight: 1
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
             
@@ -35,8 +35,8 @@
             speed: 2.0
             damage: 15
             reloadMultiplier: 1.0
-            bulletWidth: 1
-            bulletHeight: 10
+            bulletWidth: 10
+            bulletHeight: 1
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
             
