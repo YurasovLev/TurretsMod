@@ -5,12 +5,12 @@
     health: 2000
     size: 3
     recoil: 1
-    reload: 10
+    reload: 1
     range: 80
     ammoUseEffect: burning
     targetGround: true
     targetAir: false
-    inaccuracy: 0
+    inaccuracy: 10
     shots: 5
     rotatespeed: 4.0
     ammo: {
