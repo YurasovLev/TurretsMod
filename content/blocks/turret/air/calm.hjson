@@ -13,6 +13,7 @@
  spread: 45
  ammo: {
     titanit: {
+        type: BasicBulletType
         speed: 3.0
         lifetime: 100
         damage: 90
@@ -29,6 +30,7 @@
         frontColor: 276468
     }
     bronze: {
+        type: BasicBulletType
         speed: 3.0
         lifetime: 100
         damage: 50
