@@ -9,7 +9,7 @@
   chargeTime: 10
   range: 200
   chargeMaxDelay: 30
-  shootType: shootType: {
+  shootType: {
     type: LaserBulletType
     hitEffect: hitLancer
     despawnEffect: none
@@ -17,7 +17,7 @@
     lifetime: 16
     drawSize: 400
     collidesAir: false
-    }
+  }
   targetAir: false
   powerUse: 25.0
   inaccuracy: 0.0
