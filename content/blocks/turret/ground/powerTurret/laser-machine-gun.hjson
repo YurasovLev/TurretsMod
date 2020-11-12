@@ -5,16 +5,17 @@
   health: 2500
   size: 4
   recoil: 1
-  reload: 6
+  reload: 1
   chargeTime: 10
   range: 200
   chargeMaxDelay: 30
   shootType: {
     type: LaserBulletType
+    damage: 50
     hitEffect: hitLancer
     despawnEffect: none
-    hitSize: 4
-    lifetime: 16
+    hitSize: 8
+    lifetime: 5
     drawSize: 400
     collidesAir: false
   }

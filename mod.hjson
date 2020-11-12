@@ -1,8 +1,8 @@
 {
-name: "turretsmod"
-displayName: "[white]Turrets Mod"
-description: "Мод добавляет множество новых турелей."
-author: "[#9D9D9D]lev43"
-version: 3.0
-minGameVersion: 112.0
+  name: "turretsmod"
+  displayName: "[white]Turrets Mod"
+  description: "Мод добавляет множество новых турелей."
+  author: "[#9D9D9D]lev43"
+  version: 3.0-alpha
+  minGameVersion: 112.0
 }

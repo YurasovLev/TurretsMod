@@ -12,9 +12,9 @@
     type: LaserBulletType
     hitEffect: hitLancer
     despawnEffect: none
-    hitSize: 4
-    lifetime: 16
-    drawSize: 400
+    hitSize: 14
+    lifetime: 30
+    drawSize: 500
     collidesAir: false
   }
   targetAir: false
