@@ -21,7 +21,7 @@
         bulletHeight: 5
         shootEffect: shootBig
         smokeEffect: shootBigSmoke
-        type: MissileBulletType
+        BulletType: MissileBulletType
         ammoMultiplier: 1
         splashDamageRadius: 15
         splashDamage: 15
@@ -37,9 +37,9 @@
         bulletHeight: 5
         shootEffect: shootBig
         smokeEffect: shootBigSmoke
-        type: MissileBulletType
+        bulletType: MissileBulletType
         ammoMultiplier: 1
-        backColor: AF8A69
+        BackColor: AF8A69
         frontColor: ffdab9
         splashDamageRadius: 20
         splashDamage: 10
