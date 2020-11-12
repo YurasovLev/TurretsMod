@@ -13,7 +13,6 @@
  spread: 45
  ammo: {
     titanit: {
-        type: BasicBulletType
         speed: 3.0
         lifetime: 100
         damage: 90
@@ -22,7 +21,7 @@
         bulletHeight: 5
         shootEffect: shootBig
         smokeEffect: shootBigSmoke
-        type: missileBulletType
+        type: MissileBulletType
         ammoMultiplier: 1
         splashDamageRadius: 15
         splashDamage: 15
@@ -30,7 +29,6 @@
         frontColor: 276468
     }
     bronze: {
-        type: BasicBulletType
         speed: 3.0
         lifetime: 100
         damage: 50
@@ -39,7 +37,7 @@
         bulletHeight: 5
         shootEffect: shootBig
         smokeEffect: shootBigSmoke
-        type: missileBulletType
+        type: MissileBulletType
         ammoMultiplier: 1
         backColor: AF8A69
         frontColor: ffdab9
