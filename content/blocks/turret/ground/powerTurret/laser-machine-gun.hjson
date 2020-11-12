@@ -1,29 +1,37 @@
 {
- type: ChargeTurret
- name: "Laser Mashine Gun"
- description: "-"
- health: 2500
- size: 4
- recoil: 1
- reload: 6
- chargeTime: 10
- range: 200
- chargeMaxDelay: 30
- shootType: lancerLaser
- targetAir: false
- powerUse: 25.0
- inaccuracy: 0.0
- rotatespeed: 1.0
- chargeEffects: 50.0
- requirements: [
-  titanit/650
-  bronze/1500
-  metaglass/70
-  graphite/480
-  plastanium/250
-  cryocrystal/50
- ]
- coolantMultiplier: 0.7
- category: turret
- research: laser-turret
+  type: ChargeTurret
+  name: "Laser Mashine Gun"
+  description: "-"
+  health: 2500
+  size: 4
+  recoil: 1
+  reload: 6
+  chargeTime: 10
+  range: 200
+  chargeMaxDelay: 30
+  shootType: shootType: {
+    type: LaserBulletType
+    hitEffect: hitLancer
+    despawnEffect: none
+    hitSize: 4
+    lifetime: 16
+    drawSize: 400
+    collidesAir: false
+    }
+  targetAir: false
+  powerUse: 25.0
+  inaccuracy: 0.0
+  rotatespeed: 1.0
+  chargeEffects: 50.0
+  requirements: [
+    titanit/650
+    bronze/1500
+    metaglass/70
+    graphite/480
+    plastanium/250
+    cryocrystal/50
+  ]
+  coolantMultiplier: 0.7
+  category: turret
+  research: laser-turret
 }
