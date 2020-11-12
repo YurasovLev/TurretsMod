@@ -13,7 +13,9 @@
 	chargeMaxDelay: 30
 	shootType: {
 		type: lightning
-		damage: 100
+		damage: 20
+		lightningLength: 25
+    collidesAir: false
 	}
 	powerUse: 18.0
 	inaccuracy: 20.0
