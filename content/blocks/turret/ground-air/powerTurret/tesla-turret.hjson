@@ -12,7 +12,7 @@
 	range: 200
 	chargeMaxDelay: 30
 	shootType: {
-		type: lightning
+		type: LightningBulletType
 		damage: 20
 		lightningLength: 25
     collidesAir: false
