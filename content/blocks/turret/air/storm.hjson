@@ -14,6 +14,7 @@
     rotatespeed: 50
     ammo: {
         bronze: {
+            type: BasicBulletType
             speed: 6.0
             lifetime: 33
             damage: 10
@@ -28,6 +29,7 @@
             frontColor: ffdab9
         }
         copper: {
+            type: BasicBulletType
             speed: 10.0
             lifetime: 20
             damage: 5
