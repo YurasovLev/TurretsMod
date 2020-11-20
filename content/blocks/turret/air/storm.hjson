@@ -1,5 +1,5 @@
 {
-    type: ItemTurret
+    type: itemTurret
     name: "Storm"
     description: "-"
     health: 400
