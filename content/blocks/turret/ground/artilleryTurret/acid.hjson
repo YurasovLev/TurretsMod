@@ -1,18 +1,18 @@
 {
-    type: ArtilleryTurret
+    type: ItemTurret
     name: "Acid"
     description: "-"
     health: 3000
     size: 3
-    recoil: 2
-    reload: 20
+    recoilAmount: 2
+    reloadTime: 20
     range: 200
-    ammoUseEffect: shellEjectBig
+    ammoUseEffect: casing3
     targetAir: false
     inaccuracy: 3.0
     shots: 1
-    rotatespeed: 2.0
-    ammo: {
+    rotateSpeed: 2.0
+    ammoTypes: {
         plastanium: {
 	        speed: 3.0
 			lifetime: 66.6666667
@@ -39,8 +39,8 @@
 	        }
 			type: ArtilleryBulletType
 			reloadMultiplier: 1.0
-			bulletWidth: 10
-			bulletHeight: 10
+			width: 10
+			height: 10
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
 			ammoMultiplier: 1

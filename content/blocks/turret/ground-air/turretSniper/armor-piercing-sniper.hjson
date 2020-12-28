@@ -4,21 +4,22 @@
 	type: ItemTurret
 	size: 3
 	health: 1600
-	recoil: 15
-	reload: 40
+	recoilAmount: 1
+	reloadTime: 120
 	range: 500
-	ammoUseEffect: shellEjectBig
+	ammoUseEffect: casing3
+	shootSound: shotgun
 	inaccuracy: 0.0
 	shots: 1
-	rotatespeed: 0.3
-	ammo: {
+	rotateSpeed: 0.3
+	ammoTypes: {
 		titanit: {
 			speed: 100.0
 			lifetime: 5
-			damage: 350
+			damage: 660
 			reloadMultiplier: 0.5
-			bulletWidth: 3
-			bulletHeight: 9
+			width: 3
+			height: 9
 			shootEffect: shootBig
 				smokeEffect: shootBigSmoke
 			
@@ -28,7 +29,7 @@
 			status: {
 				name: "Armor penetration"
 				damageMultiplier: 1.0
-				armorMultiplier: 0.001
+				healthMultiplier: 0.001
  				speedMultiplier: 1.0
 			}
 			statusDuration: 999999.0
@@ -36,10 +37,10 @@
 		plastanium: {
 			speed: 100.0
 			lifetime: 5
-			damage: 550
+			damage: 650
 			reloadMultiplier: 1.0
-			bulletWidth: 3
-			bulletHeight: 9
+			width: 3
+			height: 9
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
 			
@@ -49,7 +50,7 @@
 			status: {
  				name: "Armor penetration2"
  				damageMultiplier: 1.0
- 				armorMultiplier: 0.001
+ 				healthMultiplier: 0.001
 				speedMultiplier: 1.0
 			}
 			statusDuration: 999999.0

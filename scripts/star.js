@@ -1,31 +1,43 @@
-const star = extendContent(ItemTurret, "star", {
-	r: false,
-	rot: 90,
-	drawLayer(tile){
-		var entity=tile.ent();
-		this.tr2.trns(0, -entity.recoil);
-		Draw.rect(this.region, tile.drawx()+this.tr2.x, tile.drawy()+this.tr2.y, 0);
-		if(entity.heat<=0.00001)return;
-		Draw.color(this.heatColor, entity.heat);
-		Draw.blend(Blending.additive);
-		Draw.rect(this.heatRegion, tile.drawx()+this.tr2.x, tile.drawy()+this.tr2.y, 0);
-		Draw.blend();
-		Draw.color();
-	},
-	turnToTarget(tile, targetRot){
-		entity=tile.ent();
-		if(this.r?entity.rotation<=this.rot:entity.rotation>=this.rot){
-			this.r=!this.r;
-			this.rot=(this.r?0:90);
-			this.shots+=2;
-			if(this.shots>10)this.shots=4;
-			this.spread=360/this.shots;
-		}else{
-			entity.rotation+=(this.r?-5:5.5);
-		};
-			
-	},
-	bullet(tile, type, angle){
-		Bullet.create(type, tile.entity, tile.getTeam(), tile.drawx(), tile.drawy(), angle);
-	}
+const Star = extendContent(ItemTurret, "star", {});
+
+Star.buildType = prov(()=>{
+    const StarBuild = extendContent(ItemTurret.ItemTurretBuild, Star, {
+        rot: 360,
+        directing: Star.rotateSpeed,
+        draw(){
+            const vec = new Vec2();
+      
+            Draw.rect(Star.baseRegion, this.x, this.y, 0);
+            
+            Draw.z(Layer.turret);
+            
+            vec.trns(0, 0);
+            
+            Draw.rect(Star.region, this.x + vec.x, this.y + vec.y, 0);
+            
+            if(this.heat <= 0.00001) return;
+            
+            Draw.color(Star.heatColor, this.heat);
+            Draw.blend(Blending.additive);
+            Draw.rect(Star.heatRegion, this.x + vec.x, this.y + vec.y, 0);
+            Draw.blend();
+            Draw.color();
+        },
+        turnToTarget(targetRot){
+            if(this.rot==0?this.rotation<=this.rot:this.rotation>=this.rot){
+                this.rot=Math.abs(this.rot-360);
+                this.directing=-this.directing;
+            }
+            this.rotation+=this.directing;
+        },
+        bullet(type, angle){
+            const vec = new Vec2();
+            vec.trns(this.rotation, 0);
+            
+            let lifeScl = type.scaleVelocity ? Mathf.clamp(Mathf.dst(this.x + vec.x, this.y + vec.y, this.targetPos.x, this.targetPos.y) / type.range(), this.minRange / type.range(), this.range / type.range()) : 1;
+
+            type.create(this, this.team, this.x + vec.x, this.y + vec.y, angle, 1 + Mathf.range(Star.velocityInaccuracy), lifeScl);
+        }
+    });
+    return StarBuild;
 });

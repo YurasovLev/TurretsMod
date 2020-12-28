@@ -1,26 +1,27 @@
 {
-    type: ArtilleryTurret
+    type: ItemTurret
     name: "Mortar"
     description: "-"
     health: 2500
     size: 4
-    recoil: 5
-    reload: 120
+    recoilAmount: 5
+    reloadTime: 120
     range: 500
-    ammoUseEffect: shellEjectBig
+    ammoUseEffect: casing3
+    shootSound: explosionbig
     targetAir: false
     inaccuracy: 1
     shots: 1
-    rotatespeed: 0.3
-    ammo: {
+    rotateSpeed: 0.3
+    ammoTypes: {
         titanit: {
             speed: 5.0
             lifetime: 100
             damage: 660
             type: ArtilleryBulletType
             reloadMultiplier: 1.0
-            bulletWidth: 10
-            bulletHeight: 10
+            width: 10
+            height: 10
             shootEffect: shootBig
             smokeEffect: shootBigSmoke
             
@@ -36,8 +37,8 @@
 			damage: 220
 			type: ArtilleryBulletType
 			reloadMultiplier: 1.0
-			bulletWidth: 10
-			bulletHeight: 10
+			width: 10
+			height: 10
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
 			ammoMultiplier: 1

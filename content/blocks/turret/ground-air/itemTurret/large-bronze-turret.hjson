@@ -1,25 +1,25 @@
 {
-	type: doubleTurret
 	name: "Large bronze turret"
 	description: "-"
 	health: 1400
 	size: 3
-	recoil: 6
-	reload: 4
+	recoilAmount: 2
+	reloadTime: 4
 	range: 100
-	ammoUseEffect: shellEjectMedium
+	ammoUseEffect: casing2
 	inaccuracy: 3
-	rotatespeed: 8.0
-	ammo: {
+	rotateSpeed: 8.0
+	spread: 6
+	ammoTypes: {
 		bronze: {
 			speed: 6.0
 			damage: 55
 			lifetime: 16.0
 			reloadMultiplier: 0.5
-			bulletWidth: 7
-			bulletHeight: 9
-			shootEffect: shootBig
-			smokeEffect: shootBigSmoke
+			width: 7
+			height: 9
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
 			
 			ammoMultiplier: 2
 			backColor: AF8A69
@@ -30,10 +30,10 @@
 			damage: 20
 			lifetime: 16.0
 			reloadMultiplier: 1.0
-			bulletWidth: 5
-			bulletHeight: 9
-			shootEffect: shootBig
-			smokeEffect: shootBigSmoke
+			width: 5
+			height: 9
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
 			
 			ammoMultiplier: 2
 			backColor: FFBA00

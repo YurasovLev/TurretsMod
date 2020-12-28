@@ -4,21 +4,22 @@
 	type: ItemTurret
 	size: 4
 	health: 4500
-	recoil: 10
-	reload: 60
-	range: 550
-	ammoUseEffect: shellEjectBig
-	inaccuracy: 0.0
+	recoilAmount: 1
+	reloadTime: 60
+	range: 1100
+	ammoUseEffect: casing3
+	shootSound: shotgun
+	inaccuracy: 0
 	shots: 3
-	rotatespeed: 0.6
-	ammo: {
+	rotateSpeed: 0.6
+	ammoTypes: {
 		surge-alloy: {
 			speed: 100.0
-			lifetime: 10
+			lifetime: 11
 			damage: 1000
 			reloadMultiplier: 0.5
-			bulletWidth: 3
-			bulletHeight: 9
+			width: 3
+			height: 9
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
 			
@@ -29,11 +30,11 @@
 		}
 		titanit: {
 			speed: 100.0
-			lifetime: 10
+			lifetime: 11
 			damage: 500
 			reloadMultiplier: 0.5
-			bulletWidth: 3
-			bulletHeight: 9
+			width: 3
+			height: 9
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
 			
@@ -45,11 +46,12 @@
 	}
 	coolantMultiplier: 0.7
 	requirements: [
-		bronze/120
-		titanit/140
-		lead/100
-		plastanium/120
-		cryocrystal/30
+		bronze/2100
+		titanit/1200
+		lead/2300
+		plastanium/550
+		cryocrystal/120
+		surge-alloy/300
 	]
 	category: turret
 	research: sniper

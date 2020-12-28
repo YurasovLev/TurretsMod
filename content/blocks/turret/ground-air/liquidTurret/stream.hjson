@@ -4,15 +4,15 @@
 	description: "-"
 	health: 500
 	size: 1
-	recoil: 0
-	reload: 1
+	recoilAmount: 0
+	reloadTime: 1
 	range: 60
-	ammoUseEffect: shellEjectSmall
+	ammoUseEffect: casing1
 	targetAir: false
 	inaccuracy: 1.0
 	shots: 1
-	rotatespeed: 6.0
-	ammo: {
+	rotateSpeed: 6.0
+	ammoTypes: {
 		water: {
 			speed: 1.0
 			lifetime: 100

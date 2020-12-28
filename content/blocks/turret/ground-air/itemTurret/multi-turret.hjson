@@ -1,121 +1,117 @@
-type: doubleTurret
-name: "Multi turret"
-description: "-"
-health: 1300
-size: 3
-range: 200
-ammoUseEffect: shellEjectBig
-reload: 20
-recoil: 3.0
-inaccuracy: 5
-itemCapacity: 30
-maxAmmo: 30
-rotatespeed: 5.0
-ammo: {
-    copper: {
-        speed: 6.0
-        damage: 55.0
-        reloadMultiplier: 1.0
-        ammoMultiplier: 2
-        recoil: 5.0
-        inaccuracy: 5.0
-        lifetime: 33.3333
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke
-        bulletWidth: 7
-        bulletHeight: 10
-        frontColor: AA8B32
-        backColor: 765D15
-    }
-    lead: {
-        speed: 6.0
-        damage: 55.0
-        reloadMultiplier: 2.0
-        ammoMultiplier: 1
-        recoil: 6.0
-        inaccuracy: 7.0
-        lifetime: 33.3333
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke
-        bulletWidth: 7
-        bulletHeight: 10
-        frontColor: 6063A7
-        backColor: 363971
-    }
-    scrap: {
-        speed: 5.5
-        lifetime: 36.3636364
-        damage: 65
-        reloadMultiplier: 1.0
-        ammoMultiplier: 0.5
-        recoil: 4.0
-        inaccuracy: 5.0
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke
-        bulletWidth: 7
-        bulletHeight: 10
-        frontColor: 8A7155
-        backColor: 5A4A38
-    }
-    titanium: {
-        speed: 4.0
-        lifetime: 50
-        damage: 70
-        reloadMultiplier: 0.8
-        ammoMultiplier: 1
-        recoil: 4.0
-        inaccuracy: 1.0
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke
-        bulletWidth: 7
-        bulletHeight: 10
-        frontColor: 306EAD
-        backColor: 1A4A7C
-    }
-    graphite: {
-        speed: 5.0
-        lifetime: 40
-        damage: 50
-        fragBullets: 10
-        fragBullet: {
-            damage: 25
-            speed: 2.0
-            lifetime: 60
+{
+    type: ItemTurret
+    name: "Multi turret"
+    description: "-"
+    health: 1300
+    size: 3
+    range: 200
+    ammoUseEffect: casing3
+    reloadTime: 10
+    recoilAmount: 3.0
+    inaccuracy: 5
+    itemCapacity: 30
+    maxAmmo: 30
+    rotateSpeed: 5.0
+    ammoTypes: {
+        copper: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
         }
-        reloadMultiplier: 1.0
-        ammoMultiplier: 1
-        recoil: 4.0
-        inaccuracy: 3.0
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke
-        bulletWidth: 7
-        bulletHeight: 10
-        frontColor: 8FADB7
-        backColor: 53646A
-    }
-    coal: {
+        lead: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 2.0
+            ammoMultiplier: 1
+            inaccuracy: 7.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: 6063A7
+            backColor: 363971
+        }
+        scrap: {
+            speed: 5.5
+            lifetime: 36.3636364
+            damage: 35
+            reloadMultiplier: 1.0
+            ammoMultiplier: 1
+            inaccuracy: 5.0
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: 8A7155
+            backColor: 5A4A38
+        }
+        titanium: {
+            speed: 4.0
             lifetime: 50
-            type: ArtilleryBulletType
+            damage: 55
+            reloadMultiplier: 0.8
+            ammoMultiplier: 1
+            inaccuracy: 1.0
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: 306EAD
+            backColor: 1A4A7C
+        }
+        graphite: {
+            speed: 5.0
+            lifetime: 40
+            damage: 60
+            fragBullets: 10
+            fragBullet: {
+                damage: 25
+                speed: 2.0
+                lifetime: 60
+            }
+            reloadMultiplier: 1.0
+            ammoMultiplier: 1
+            inaccuracy: 3.0
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: 8FADB7
+            backColor: 53646A
+        }
+        coal: {
+            lifetime: 200
             trailEffect: burning
             speed: 4.0
-            damage: 40
-            reloadMultiplier: 4.0
-            bulletWidth: 0
-            bulletHeight: 10
+            damage: 30
+            reloadMultiplier: 2.0
+            width: 4
+            height: 10
             shootEffect: shootPyraFlame
             smokeEffect: fireSmoke
             
             ammoMultiplier: 2
-            backColor: FFA200
-            frontColor: A66A00
+            backColor: aa5000
+            frontColor: 522500
             status: burning
         }
+    }
+    coolantMultiplier: 0.7
+    requirements: [
+        bronze/50
+        copper/80
+        lead/80
+    ]
+    category: turret
+    research: large-bronze-turret
 }
-coolantMultiplier: 0.7
-requirements: [
-    bronze/40
-    copper/65
-    lead/55
-]
-category: turret
-research: large-bronze-turret

@@ -1,6 +1,18 @@
 {
- name: "Bronze"
- description: "---"
- type: material
- color: ffdab9
+  name: "Bronze"
+  description: "---"
+  color: ffdab9
+  research: {
+    parent: lead
+    requirements: [
+      {
+        item: copper
+        amount: 500
+      }
+      {
+        item: lead
+        amount: 500
+      }
+    ]
+  }
 }

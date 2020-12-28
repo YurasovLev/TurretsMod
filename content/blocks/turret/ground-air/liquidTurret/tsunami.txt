@@ -4,14 +4,14 @@
     description: "-"
     health: 2000
     size: 3
-    recoil: 2
-    reload: 10
+    recoilAmount: 2
+    reloadTime: 10
     range: 150
     targetGround: true
     inaccuracy: 2.0
     shots: 8
-    rotatespeed: 2.0
-    ammo: {
+    rotateSpeed: 2.0
+    ammoTypes: {
         water: {
             speed: 1.3
             lifetime: 200
@@ -19,8 +19,8 @@
             liquid: water
             damage: 20
             reloadMultiplier: 1.0
-            bulletWidht: 7
-            bulletHeight: 9
+            width: 7
+            height: 9
            shootEffect: shootLiquid
      smokeEffect: shootSmallSmoke
             
@@ -36,8 +36,8 @@
             type: LiquidBulletType
             liquid: slag
             reloadMultiplier: 1.0
-            bulletWidht: 5
-            bulletHeight: 9
+            width: 5
+            height: 9
             shootEffect: shootLiquid
             smokeEffect: shootSmallSmoke
             
@@ -53,8 +53,8 @@
             type: LiquidBulletType
             liquid: cryofluid
             reloadMultiplier: 1.5
-            bulletWidht: 5
-            bulletHeight: 9
+            width: 5
+            height: 9
             shootEffect: shootLiquid
             smokeEffect: shootSmallSmoke
             
@@ -70,8 +70,8 @@
             type: LiquidBulletType
             liquid: oil
             reloadMultiplier: 0.5
-            bulletWidht: 5
-            bulletHeight: 9
+            width: 5
+            height: 9
             shootEffect: shootLiquid
             smokeEffect: shootSmallSmoke
             

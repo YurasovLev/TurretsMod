@@ -4,21 +4,22 @@
 	type: ItemTurret
 	size: 3
 	health: 450
-	recoil: 10
-	reload: 35
+	recoilAmount: 1
+	reloadTime: 35
 	range: 500
-	ammoUseEffect: shellEjectSmall
+	ammoUseEffect: casing1
+	shootSound: shotgun
 	inaccuracy: 0.0
 	shots: 1
-	rotatespeed: 0.7
-	ammo: {
+	rotateSpeed: 0.7
+	ammoTypes: {
 		bronze: {
 			speed: 50.0
 			lifetime: 10
 			damage: 95
 			reloadMultiplier: 0.5
-			bulletWidth: 3
-			bulletHeight: 9
+			width: 3
+			height: 9
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
 			
@@ -31,8 +32,8 @@
 			lifetime: 10
 			damage: 150
 			reloadMultiplier: 0.5
-			bulletWidth: 3
-			bulletHeight: 9
+			width: 3
+			height: 9
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
 			

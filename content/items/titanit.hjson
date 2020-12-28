@@ -1,6 +1,22 @@
 {
- type: material
  name: "titanit"
  description: "---"
  color: 276468
+ research: {
+    parent: bronze
+    requirements: [
+      {
+        item: bronze
+        amount: 500
+      }
+      {
+        item: lead
+        amount: 800
+      }
+      {
+        item: titanium
+        amount: 500
+      }
+    ]
+  }
 }

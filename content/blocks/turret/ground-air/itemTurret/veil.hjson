@@ -1,25 +1,25 @@
 {
 	size: 3
-	rotatespeed: 0.0
+	rotateSpeed: 4
 	shootCone: 360
 	range: 120
 	health: 1000
-	recoil: 0
-	reload: 6.0
+	recoilAmount: 0
+	reloadTime: 6.0
 	inaccuracy: 0.0
-	ammoUseEffect: shellEjectBig
+	ammoUseEffect: casing3
 	spread: 90
 	shots: 4
 	maxAmmo: 100
-	ammo: {
+	ammoTypes: {
 		spore-pod: {
 			speed: 10.0
 			lifetime: 600
 			damage: 45
 			reloadMultiplier: 1.0
 			shootEffect: none
-			bulletWidth: 5
-			bulletHeight: 5
+			width: 5
+			height: 5
 			smokeEffect: none
 			collidesTiles: false
 			drag: 0.1
@@ -33,8 +33,8 @@
 			damage: 25
 			reloadMultiplier: 10.0
 			shootEffect: none
-			bulletWidth: 5
-			bulletHeight: 5
+			width: 5
+			height: 5
 			smokeEffect: none
 			collidesTiles: false
 			drag: 0.1
@@ -51,5 +51,5 @@
 	]
 	coolantMultiplier: 0.7
 	category: turret
-	research: rose-hip-alpha
+	research: rose-hip-beta
 }

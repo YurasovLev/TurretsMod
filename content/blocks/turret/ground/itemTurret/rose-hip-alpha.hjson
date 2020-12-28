@@ -2,24 +2,24 @@
  size: 2
  range: 70
  health: 800
- recoil: 0
- reload: 40
+ recoilAmount: 0
+ reloadTime: 40
  inaccuracy: 360
- ammoUseEffect: shellEjectSmall
+ ammoUseEffect: none
  targetAir: false
  shots: 100
- rotatespeed: 0
+ rotateSpeed: 0
  shootCone: 360
- ammo: {
+ ammoTypes: {
   bronze: {
    speed: 1.5
    lifetime: 46
    damage: 30
    reloadMultiplier: 1.0
-   bulletWidth: 3
-   bulletHeight: 5
-   shootEffect: shootSmall
-   smokeEffect: shootSmallSmoke
+   width: 3
+   height: 5
+   shootEffect: none
+   smokeEffect: none
             
    ammoMultiplier: 1
    backColor: AF8A69
@@ -30,10 +30,10 @@
    lifetime: 46
    damage: 15
    reloadMultiplier: 1.0
-   shootEffect: shootSmall
-   bulletWidth: 3
-   bulletHeight: 5
-   smokeEffect: shootSmallSmoke
+   shootEffect: none
+   smokeEffect: none
+   width: 3
+   height: 5
    
    ammoMultiplier: 1
    backColor: 6998D8

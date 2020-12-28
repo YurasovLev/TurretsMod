@@ -1,28 +1,28 @@
 {
-type: GenericSmelter
-name: "Factory of bronze"
-description: "-"
-outputItem: bronze/2
-size: 2
-hasPower: false
-craftTime: 60
-health: 300
-updateEffect: smeltsmoke
-consumes: {
- power: 0.5
- items: {
-  items: [
-   lead/1
-   copper/2
+  type: GenericSmelter
+  name: "Factory of bronze"
+  description: "-"
+  outputItem: bronze/2
+  size: 2
+  hasPower: false
+  craftTime: 60
+  health: 300
+  updateEffect: smeltsmoke
+  consumes: {
+  power: 0.5
+  items: {
+    items: [
+    lead/1
+    copper/2
+    ],
+  }
+  }
+  requirements: [
+  lead/40 
+  copper/40
   ],
- }
-}
-requirements: [
- lead/40 
- copper/40
-],
-category: crafting
-research: graphite-press
-idleSound: respawning
-idleSoundVolume: 0.5
+  category: crafting
+  research: graphite-press
+  ambientSound: respawning
+  ambientSoundVolume: 0.5
 }

@@ -1,17 +1,18 @@
 {
 	name: "Fireworks"
 	description: "-"
-	type: ArtilleryTurret
+	type: ItemTurret
 	range: 200
-	recoil: 5
-	reload: 60
-	ammoUseEffect: shellEjectBig
+	recoilAmount: 1
+	reloadTime: 60
+	ammoUseEffect: casing3
+	shootSound: missile
 	size: 2
 	health: 1000
 	inaccuracy: 3
-	rotatespeed: 1.0
-	targetAir: true
-	ammo: {
+	rotateSpeed: 1.0
+	targetGround: false
+	ammoTypes: {
 		titanit: {
 			speed: 2.0
 			damage: 150
@@ -19,8 +20,8 @@
 			reloadMultiplier: 0.9
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
-			bulletWidth: 3
-			bulletHeight: 5
+			width: 1
+			height: 3
 			fragBullets: 5
 			fragBullet: {
 				damage: 50
@@ -39,8 +40,8 @@
 			damage: 150
 			lifetime: 50
 			reloadMultiplier: 1.5
-			bulletWidth: 7
-			bulletHeight: 9
+			width: 1
+			height: 3
 			fragBullets: 10
 			fragBullet: {
 				damage: 25
@@ -66,8 +67,8 @@
 			lifetime: 50
 			damage: 500
 			reloadMultiplier: 1.0
-			bulletWidth: 7
-			bulletHeight: 9
+			width: 1
+			height: 3
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
 			
@@ -90,12 +91,11 @@
 			type: missileBulletType
 			reloadMultiplier: 1.0
 			ammoMultiplier: 1
-			recoil: 4.0
 			inaccuracy: 3.0
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
-			bulletWidth: 7
-			bulletHeight: 10
+			width: 1
+			height: 3
 			frontColor: FFE5CD
 			backColor: FF7A00
 		}

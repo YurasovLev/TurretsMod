@@ -1,14 +1,8 @@
 Log.info('start main [TurretsMod]');
 var scripts=[
-	"hurricane",
-	"hell-turret",
-	"bastion",
-	"calm",
-	"rose-hip-alpha",
-	"rose-hip-beta",
-	"veil",
-	"star"
-];
+	"items",
+	"Turrets"
+]
 for(var i=0;i<scripts.length;i++){
 	try{
 		Log.info('require script: '+scripts[i]);

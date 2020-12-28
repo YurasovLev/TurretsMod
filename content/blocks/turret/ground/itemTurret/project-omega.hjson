@@ -1,0 +1,42 @@
+{
+    name: "Omega"
+    description: "-"
+    health: 8800
+	shootShake: 10
+    size: 16
+    recoilAmount: 0
+    reloadTime: 180
+    range: 1000
+    coolantUsage: 10.0
+    cooldown: 0.009
+    ammoUseEffect: none
+    inaccuracy: 0
+    shots: 1
+    shootCone: 1
+    chargeTime: 60
+    chargeEffects: 5
+    chargeMaxDelay: 70
+    chargeSound: lasercharge
+    shootSound: laserbig
+    targetAir: false
+    ammoPerShot: 100
+    maxAmmo: 100
+    rotateSpeed: 0.03
+    coolantMultiplier: 1.0
+    requirements: [
+       surge-alloy/640
+       titanit/2300
+       cryocrystal/3200
+       metaglass/4300
+       titanium/4300
+       plastanium/4300
+       silicon/4300
+       graphite/4300
+       thorium/5600
+       bronze/5600
+       copper/7800
+       lead/7800
+    ]
+    category: turret
+    research: hell-turret
+}

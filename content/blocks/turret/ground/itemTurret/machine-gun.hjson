@@ -1,43 +1,44 @@
-type: itemTurret
-name: "Machine gun"
-description: "-"
-health: 5300
-size: 4
-range: 225
-targetAir: false
-rotatespeed: 1.0
-shootCone: 5
-shootShake: 0.5
-ammoUseEffect: shellEjectSmall
-reload: 1
-recoil: 1
-inaccuracy: 0.1
-itemCapacity: 500
-maxAmmo: 250
-ammo: {
-	titanit: {
-		speed: 10.0
-		damage: 55
-		reloadMultiplier: 1.0
-		ammoMultiplier: 2
-		lifetime: 22.5
-		inaccuracy: 6
-		recoil: 1
-		knockback: 4
-		bulletWidth: 5
-		bulletHeight: 6
-		frontColor: 276468
-		backColor: 2A5C60
+{
+	type: ItemTurret
+	name: "Machine gun"
+	description: "-"
+	health: 5300
+	size: 4
+	range: 225
+	targetAir: false
+	rotateSpeed: 1.0
+	shootCone: 5
+	shootShake: 0.5
+	ammoUseEffect: casing3
+	reloadTime: 1
+	recoilAmount: 1
+	inaccuracy: 0.1
+	itemCapacity: 500
+	maxAmmo: 250
+	ammoTypes: {
+		titanit: {
+			speed: 10.0
+			damage: 55
+			reloadMultiplier: 1.0
+			ammoMultiplier: 2
+			lifetime: 22.5
+			inaccuracy: 6
+			knockback: 4
+			width: 5
+			height: 6
+			frontColor: 276468
+			backColor: 2A5C60
+		}
 	}
+	coolantMultiplier: 0.7
+	requirements: [
+		titanium/350
+		titanit/560
+		bronze/540
+		copper/630
+		lead/570
+		cryocrystal/15
+	]
+	category: turret
+	research: large-bronze-turret
 }
-coolantMultiplier: 0.7
-requirements: [
-	titanium/350
-	titanit/560
-	bronze/540
-	copper/630
-	lead/570
-	cryocrystal/15
-]
-category: turret
-research: large-bronze-turret

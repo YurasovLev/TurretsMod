@@ -4,21 +4,21 @@
 	type: ItemTurret
 	size: 3
 	health: 1500
-	recoil: 10
-	reload: 35
+	recoilAmount: 10
+	reloadTime: 35
 	range: 280
-	ammoUseEffect: shellEjectSmall
+	ammoUseEffect: casing1
 	inaccuracy: 0.0
 	shots: 1
-	rotatespeed: 9.0
-	ammo: {
+	rotateSpeed: 9.0
+	ammoTypes: {
 		titanit: {
 			speed: 50.0
 			damage: 5
 			lifetime: 5
 			reloadMultiplier: 0.5
-			bulletWidth: 3
-			bulletHeight: 9
+			width: 3
+			height: 9
 			shootEffect: shootSmall
 			smokeEffect: shootSmallSmoke
 			
@@ -29,7 +29,7 @@
 			 name: "shoc"
 			 speedMultiplier: 0.000000001
 			 damageMultiplier: 1.0
-			 armorMultiplier: 0.9
+			 healthMultiplier: 0.9
 			 effect: mine
 			}
 			statusDuration: 9999.0
@@ -39,8 +39,8 @@
 			damage: 10
 			lifetime: 5
 			reloadMultiplier: 0.5
-			bulletWidth: 3
-			bulletHeight: 9
+			width: 3
+			height: 9
 			shootEffect: shootSmall
 	 smokeEffect: shootSmallSmoke
 			
@@ -51,7 +51,7 @@
 			 name: "shoc2"
 			 speedMultiplier: 0.000000001
 			 damageMultiplier: 1.0
-			 armorMultiplier: 0.9
+			 healthMultiplier: 0.9
 			 effect: mine
 			}
 			statusDuration: 9999.0

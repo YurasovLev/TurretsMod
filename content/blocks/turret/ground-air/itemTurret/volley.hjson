@@ -1,27 +1,28 @@
 {
-    type: ItemTurret
     name: "Volley"
     description: "-"
     health: 1400
     size: 3
-    xRand: 0
-    recoil: 0
-    reload: 30
+    xRand: 15
+    spread: 360
+    recoilAmount: 0
+    reloadTime: 30
     range: 400
     shootCone: 10
-    ammoUseEffect: shellEjectBig
+    ammoUseEffect: none
+    shootSound: missile
     targetGround: true
     inaccuracy: 0
     shots: 5
-    rotatespeed: 5.0
-    ammo: {
+    rotateSpeed: 5.0
+    ammoTypes: {
         titanit: {
             lifetime: 130
             speed: 3.0
-            damage: 150
+            damage: 90
             reloadMultiplier: 1.0
-            bulletWidth: 7
-            bulletHeight: 9
+            width: 7
+            height: 9
             shootEffect: shootBig
             smokeEffect: shootBigSmoke
             type: missileBulletType
@@ -32,12 +33,12 @@
         surge-alloy: {
             lifetime: 130
             speed: 3.0
-            damage: 500
+            damage: 150
             reloadMultiplier: 1.0
-            bulletWidth: 7
-            bulletHeight: 9
-           shootEffect: shootBig
-     smokeEffect: shootBigSmoke
+            width: 7
+            height: 9
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
             
             ammoMultiplier: 1
             backColor: CAB14E
@@ -48,11 +49,12 @@
     }
     coolantMultiplier: 0.7
     requirements: [
-       bronze/70
-       titanit/85
-       copper/120
-	   lead/50
-       silicon/35
+       bronze/340
+       titanit/185
+       copper/550
+	   lead/550
+       silicon/250
+       plastanium/50
     ]
     category: turret
     research: dragon

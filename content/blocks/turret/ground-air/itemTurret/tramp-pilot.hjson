@@ -1,23 +1,23 @@
 {
-    type: itemTurret
+    type: ItemTurret
     name: "Tramp pilot"
     description: "-"
     health: 1300
     size: 2
-    recoil: 0.1
-    reload: 0.333333333
+    recoilAmount: 0.1
+    reloadTime: 0.333333333
     range: 150
-    ammoUseEffect: shellEjectSmall
+    ammoUseEffect: casing1
     inaccuracy: 90.0
-    rotatespeed: 10.0
-    ammo: {
+    rotateSpeed: 10.0
+    ammoTypes: {
         bronze: {
             speed: 5.0
             damage: 50
             lifetime: 30
             reloadMultiplier: 1.0
-            bulletWidth: 7
-            bulletHeight: 9
+            width: 7
+            height: 9
             shootEffect: shootSmall
             smokeEffect: shootSmallSmoke
             
@@ -30,8 +30,8 @@
             damage: 20
             lifetime: 30
             reloadMultiplier: 1.5
-            bulletWidth: 5
-            bulletHeight: 9
+            width: 5
+            height: 9
             shootEffect: shootSmall
             smokeEffect: shootSmallSmoke
             

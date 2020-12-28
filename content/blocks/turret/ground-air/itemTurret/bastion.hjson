@@ -1,54 +1,80 @@
 {
-	size: 4
-	rotatespeed: 0.0
+	size: 6
+	rotateSpeed: 0.0
 	shootCone: 360
 	range: 220
-	health: 8800
-	recoil: 0
-	reload: 60
+	health: 15500
+	recoilAmount: 0
+	reloadTime: 60
 	inaccuracy: 0.0
-	ammoUseEffect: shellEjectBig
-	shots: 10
-	spread: 36
+	ammoUseEffect: none
+	shots: 8
+	spread: 45
 	maxAmmo: 150
-	itemCapacity: 150
-	ammo: {
+	shootSound: missile
+	itemCapacity: 250
+	ammoTypes: {
 		titanit: {
 			speed: 2.0
 			lifetime: 110
-			damage: 180
+			damage: 320
 			reloadMultiplier: 1.0
-			bulletWidth: 3
-			bulletHeight: 5
+			width: 8
+			height: 8
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
 			type: missileBulletType
 			ammoMultiplier: 2
 			backColor: 2A5C60
 			frontColor: 276468
+
+			splashDamageRadius: 5
+			splashDamage: 50
+		}
+		surge-alloy: {
+			speed: 2.0
+			lifetime: 110
+			damage: 550
+			reloadMultiplier: 1.0
+			width: 8
+			height: 8
+			status: burning
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			type: missileBulletType
+			ammoMultiplier: 1
+			backColor: CAB14E
+			frontColor: CAB14E
+
+			splashDamageRadius: 5
+			splashDamage: 120
 		}
 		thorium: {
 			speed: 2.0
 			lifetime: 110
 			damage: 100
 			reloadMultiplier: 1.0
-			bulletWidth: 3
-			bulletHeight: 5
+			width: 8
+			height: 8
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
 			type: missileBulletType
 			ammoMultiplier: 1
 			backColor: A40089
 			frontColor: C711A9
+
+			splashDamageRadius: 5
+			splashDamage: 20
 		}
 	}
 	requirements: [
-		bronze/100
-		titanit/230
-		lead/200
-		silicon/120
-		titanium/130
-		thorium/60
+		bronze/580
+		titanit/650
+		lead/1800
+		silicon/650
+		titanium/1200
+		thorium/550
+		plastanium/340
 	]
 	coolantMultiplier: 0.7
 	category: turret

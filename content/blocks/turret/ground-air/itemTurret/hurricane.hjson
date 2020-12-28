@@ -1,22 +1,23 @@
 {
 	health: 4600
-	recoil: 0
+	recoilAmount: 0
 	size: 6
-	reload: 20
+	reloadTime: 20
 	range: 300
 	spread: 60
 	inaccuracy: 0
 	shots: 6
 	shootEffect: none
+	shootSound: shoot1
 	shootCone: 360
-	ammo: {
+	ammoTypes: {
 		titanium: {
 			speed: 1.0
 			damage: 120
 			lifetime: 300
 			reloadMultiplier: 1.0
-			bulletWidth: 9
-			bulletHeight: 9
+			width: 9
+			height: 9
 			shootEffect: none
 			smokeEffect: none
 			ammoMultiplier: 1
@@ -27,8 +28,8 @@
 				speed: 0.5
 				damage: 60
 				lifetime: 30
-				bulletWidth: 4
-				bulletHeight: 4
+				width: 4
+				height: 4
 				
 				backColor: BFE8F4
 				frontColor: 99CAD8
@@ -39,8 +40,8 @@
 			damage: 230
 			lifetime: 300
 			reloadMultiplier: 1.0
-			bulletWidth: 9
-			bulletHeight: 9
+			width: 9
+			height: 9
 			shootEffect: none
 			smokeEffect: none
 			ammoMultiplier: 2
@@ -51,8 +52,8 @@
 				speed: 1.0
 				damage: 90
 				lifetime: 30
-				bulletWidth: 4
-				bulletHeight: 4
+				width: 4
+				height: 4
 				
 				backColor: 92D554
 				frontColor: 9BED4F

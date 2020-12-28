@@ -1,25 +1,25 @@
 {
  size: 2
- rotatespeed: 0.0
+ rotateSpeed: 0.0
  shootCone: 360
  range: 120
  health: 1000
- recoil: 0
- reload: 30
+ recoilAmount: 0
+ reloadTime: 30
  inaccuracy: 90.0
- ammoUseEffect: shellEjectBig
+ ammoUseEffect: none
  targetAir: false
  shots: 100
- ammo: {
+ ammoTypes: {
   titanit: {
    speed: 3.0
    lifetime: 40
    damage: 70
    reloadMultiplier: 1.0
-   bulletWidth: 3
-   bulletHeight: 5
-   shootEffect: shootBig
-   smokeEffect: shootBigSmoke
+   width: 3
+   height: 5
+   shootEffect: none
+   smokeEffect: none
 
    ammoMultiplier: 1
    backColor: 2A5C60
@@ -30,10 +30,10 @@
    lifetime: 40
    damage: 45
    reloadMultiplier: 1.0
-   bulletWidth: 3
-   bulletHeight: 5
-   shootEffect: shootBig
-   smokeEffect: shootBigSmoke
+   width: 3
+   height: 5
+   shootEffect: none
+   smokeEffect: none
             
    ammoMultiplier: 1
    backColor: AF8A69
@@ -45,8 +45,8 @@
    damage: 40
    reloadMultiplier: 1.0
    shootEffect: shootBig
-   bulletWidth: 3
-   bulletHeight: 5
+   width: 3
+   height: 5
    smokeEffect: shootBigSmoke
    
    ammoMultiplier: 1

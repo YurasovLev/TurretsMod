@@ -1,23 +1,23 @@
 {
-    type: doubleTurret
+    type: ItemTurret
     name: "Bronze turret"
     description: "-"
     health: 800
     size: 2
-    recoil: 6
-    reload: 4
+    recoilAmount: 1
+    reloadTime: 4
     range: 100
-    ammoUseEffect: shellEjectSmall
+    ammoUseEffect: casing1
     inaccuracy: 10
-    rotatespeed: 10.0
-    ammo: {
+    rotateSpeed: 10.0
+    ammoTypes: {
         bronze: {
             speed: 1.0
             damage: 15
             lifetime: 100
             reloadMultiplier: 1.0
-            bulletWidth: 7
-            bulletHeight: 9
+            width: 7
+            height: 9
             shootEffect: shootSmall
             smokeEffect: shootSmallSmoke
             
@@ -30,8 +30,8 @@
             damage: 10
             lifetime: 50
             reloadMultiplier: 1.5
-            bulletWidth: 5
-            bulletHeight: 9
+            width: 5
+            height: 9
            shootEffect: shootSmall
      smokeEffect: shootSmallSmoke
             

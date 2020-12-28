@@ -1,17 +1,18 @@
 {
 	name: "Dragon"
 	description: "-"
-	type: ArtilleryTurret
+	type: ItemTurret
 	range: 400
-	recoil: 5
-	reload: 30
-	ammoUseEffect: shellEjectBig
+	recoilAmount: 5
+	reloadTime: 30
+	ammoUseEffect: casing3
+	shootSound: missile
 	size: 3
 	health: 1500
 	inaccuracy: 0
-	rotatespeed: 3
+	rotateSpeed: 3
 	targetAir: true
-	ammo: {
+	ammoTypes: {
 		titanit: {
 			speed: 2.0
 			damage: 150
@@ -19,8 +20,8 @@
 			reloadMultiplier: 0.9
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
-			bulletWidth: 3
-			bulletHeight: 5
+			width: 3
+			height: 5
 			backColor: 2A5C60
 			frontColor: 276468
 			type: missileBulletType
@@ -33,8 +34,8 @@
 			damage: 150
 			lifetime: 100
 			reloadMultiplier: 1.5
-			bulletWidth: 7
-			bulletHeight: 9
+			width: 7
+			height: 9
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
 			
@@ -48,8 +49,8 @@
 			lifetime: 100
 			damage: 300
 			reloadMultiplier: 1.0
-			bulletWidth: 7
-			bulletHeight: 9
+			width: 7
+			height: 9
 			shootEffect: shootBig
 			smokeEffect: shootBigSmoke
 			

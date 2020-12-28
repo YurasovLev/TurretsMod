@@ -1,22 +1,24 @@
 {
 	health: 4600
 	size: 6
-	recoil: 0
-	reload: 20
+	recoilAmount: 0
+	reloadTime: 20
 	range: 500
 	spread: 90
 	inaccuracy: 0
-	shots: 4
+	shots: 8
 	shootEffect: none
+	shootSound: sap
 	shootCone: 360
-	ammo: {
+	rotateSpeed: 5.0
+	ammoTypes: {
 		surge-alloy: {
 			speed: 0.5
 			damage: 1650
 			lifetime: 1000
 			reloadMultiplier: 1.0
-			bulletWidth: 9
-			bulletHeight: 9
+			width: 9
+			height: 9
 			shootEffect: none
 			smokeEffect: none
 			ammoMultiplier: 2

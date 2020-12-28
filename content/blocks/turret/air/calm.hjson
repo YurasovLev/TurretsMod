@@ -1,48 +1,50 @@
 {
  size: 3
- rotatespeed: 0.0
+ rotateSpeed: 0.0
  shootCone: 360
  range: 300
  health: 1200
- recoil: 0
- reload: 30
+ recoilAmount: 0
+ reloadTime: 30
  inaccuracy: 0.0
- ammoUseEffect: shellEjectBig
+ ammoUseEffect: none
+ shootSound: missile
  targetGround: false
  shots: 8
  spread: 45
- ammo: {
+ rotateSpeed: 5
+ ammoTypes: {
     titanit: {
         speed: 3.0
         lifetime: 100
-        damage: 90
+        damage: 350
         reloadMultiplier: 1.0
-        bulletWidth: 3
-        bulletHeight: 5
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke
-        type: missileBulletType
+        width: 3
+        height: 5
+        shootEffect: none
+        smokeEffect: none
+        type: MissileBulletType
         ammoMultiplier: 1
         splashDamageRadius: 15
-        splashDamage: 15
+        splashDamage: 50
         backColor: 2A5C60
         frontColor: 276468
     }
     bronze: {
         speed: 3.0
         lifetime: 100
-        damage: 50
+        damage: 250
         reloadMultiplier: 1.0
-        bulletWidth: 3
-        bulletHeight: 5
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke
-        type: missileBulletType
+        width: 3
+        height: 5
+        shootEffect: none
+        smokeEffect: none
+        type: MissileBulletType
         ammoMultiplier: 1
         backColor: AF8A69
         frontColor: ffdab9
         splashDamageRadius: 20
-        splashDamage: 10
+        splashDamage: 35
     }
 }
 requirements: [
